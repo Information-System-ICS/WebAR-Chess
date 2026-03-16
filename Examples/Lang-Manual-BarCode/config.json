@@ -25,13 +25,13 @@
     },    
     {
       "id": 2,
-      "type": "aruco:ARUCO_4X4_1000",
+      "type": "barcode",
       "target": 0,
-      "matrixSize": 30,      
+      "matrixSize": 20,  
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [30, 5, 30],
+        "size": [20, 5, 20],
         "textureFile": "en_Man.jpg"
       },
       "alternativeContent": {
@@ -47,13 +47,13 @@
     },
     {
       "id": 3,
-      "type": "aruco:ARUCO_4X4_1000",
+      "type": "barcode",
       "target": 1,
-      "matrixSize": 30,      
+      "matrixSize": 20,      
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [30, 5, 30],
+        "size": [20, 5, 20],
         "textureFile": "pt-pt-question.jpg"
       },
       "alternativeContent": {

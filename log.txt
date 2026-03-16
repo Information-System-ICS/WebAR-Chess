@@ -1,0 +1,2904 @@
+asm.js type error: Asm.js optimizer disabled by 'asmjs' runtime option artoolkit.min.js
+asm.js is deprecated and should no longer be used. Please recompile using WebAssembly to get the best performance. artoolkit.min.js:3:1
+THREE.WebGLRenderer 86 three.js:20307:11
+Aruco detector initialized for dictionary: ARUCO_4X4_1000 aruco.js:44:17
+Posit initialized with modelSize: 30 and detectionWidth: 640 aruco.js:52:17
+Detection canvas initialized: 640x480 aruco.js:70:17
+*** Camera Parameter resized from 640, 480. *** artoolkit.min.js:1:23009
+Allocated videoFrameSize 3686400 artoolkit.min.js:1:23009
+Pattern detection mode set to 4. artoolkit.min.js:1:23009
+Pattern ratio size set to 0.900000. artoolkit.min.js:1:23009
+obsolete function arToolkitSource.onResize. Use arToolkitSource.onResizeElement threex-artoolkitsource.js:388:11
+obsolete function arToolkitSource.copySizeTo. Use arToolkitSource.copyElementSizeTo 2 threex-artoolkitsource.js:378:10
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 9 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -16.52397478218767, 5.695664622328261, 279.9969167635137 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -16.52397478218767, 5.695664622328261, 279.9969167635137 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9799291105982014, -0.1741908666669743, -0.09693544332196703, -16.52397478218767, 0.17307385223234634, 0.50213522795055, 0.8472931337645224, -279.9969167635137, -0.0989160243624552, -0.8470641975794145, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+THREE.WebGLRenderer: image is not power of two (400x300). Resized to 512x256 
+<img src="pt-pt-question.jpg">
+three.js:18028:13
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 10 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 11 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -49.90871993336124, 0.5555390376877298, 280.9498897143226 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -49.90871993336124, 0.5555390376877298, 280.9498897143226 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9678260770950978, -0.14305358840933804, -0.20699844283937366, -49.90871993336124, 0.25008359190642454, 0.4561022981488193, 0.8540660926898728, -280.9498897143226, -0.027764753805763313, -0.8783543501722851, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -13.943572233061605, 2.0031378656494265, 280.5802240113173 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -13.943572233061605, 2.0031378656494265, 280.5802240113173 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9851343355857684, -0.14331485578168976, -0.09471638169957938, -13.943572233061605, 0.1581802112000097, 0.5417193508194647, 0.8255417407572182, -280.5802240113173, -0.06700269871212107, -0.8282517715405209, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+THREE.WebGLRenderer: image is not power of two (400x300). Resized to 512x256 
+<img src="en_Man.jpg">
+three.js:18028:13
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+THREE.WebGLRenderer: image is not power of two (400x300). Resized to 512x256 
+<img src="pt-pt_Homem.jpg">
+three.js:18028:13
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -48.94166834566411, -0.03768517354957268, 282.14035597908827 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -48.94166834566411, -0.03768517354957268, 282.14035597908827 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.968685259631624, -0.13384853140784672, -0.2091254131194381, -48.94166834566411, 0.2472606370258018, 0.44334218182307156, 0.8615740752796319, -282.14035597908827, -0.022606307748229408, -0.886302589670323, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -12.630605773054048, 1.0574644227658254, 282.32128353534733 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -12.630605773054048, 1.0574644227658254, 282.32128353534733 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9862578306446899, -0.12071985252526654, -0.11279276882100157, -12.630605773054048, 0.1600594434251602, 0.5289722879262804, 0.833408239206011, -282.32128353534733, -0.04094467074550648, -0.8400089498406037, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -48.30909469686945, 1.0644221104612779, 282.3010736779028 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -48.30909469686945, 1.0644221104612779, 282.3010736779028 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9701412248025334, -0.11858286681198123, -0.2115753001588142, -48.30909469686945, 0.24238543951927355, 0.44280668191002515, 0.8632331904907751, -282.3010736779028, -0.008677709818207048, -0.8887408768333355, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -12.020533110393897, 1.6430328205114773, 279.8323998378107 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -12.020533110393897, 1.6430328205114773, 279.8323998378107 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9892671185842461, -0.11551443110323191, -0.08948175397766765, -12.020533110393897, 0.13840316462735786, 0.5444140792440172, 0.8273196929494796, -279.8323998378107, -0.04685223697066803, -0.8308247267190508, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -11.571200722126608, 2.17352865336027, 282.96659972523474 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -11.571200722126608, 2.17352865336027, 282.96659972523474 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9909881179224305, -0.10559681121571976, -0.08241276356020691, -11.571200722126608, 0.12700173091922073, 0.5451249555673047, 0.8286792764159521, -282.96659972523474, -0.04258063503613795, -0.8316778801187487, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -47.334090992188244, 1.8665669835829757, 280.077997188469 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -47.334090992188244, 1.8665669835829757, 280.077997188469 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9648741925796149, -0.12558856888795958, -0.23074943956272187, -47.334090992188244, 0.2627122026678102, 0.4622627350519112, 0.8469329739428934, -280.077997188469, 0.0003017669024479559, -0.8778044629340868, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -11.548208701916845, 2.2926612931764634, 279.3532381332608 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -11.548208701916845, 2.2926612931764634, 279.3532381332608 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9869890719089607, -0.11454517411453476, -0.11283605372113582, -11.548208701916845, 0.15740079739832402, 0.5450498224320875, 0.8234960109466961, -279.3532381332608, -0.032826222911871546, -0.8305420483959981, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -49.16365846779474, 3.5499772865495505, 282.22267927321013 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -49.16365846779474, 3.5499772865495505, 282.22267927321013 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.967781999634105, -0.11645788420844612, -0.2232388012642628, -49.16365846779474, 0.2517229453036992, 0.42710183469836127, 0.8684581634165945, -282.22267927321013, -0.005793098639220072, -0.8966725065501818, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -12.873096502581513, 4.185622823469526, 279.62092426370253 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -12.873096502581513, 4.185622823469526, 279.62092426370253 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9873771340488332, -0.11719382104778606, -0.10654578107899026, -12.873096502581513, 0.15364031402017386, 0.5452382222780984, 0.8240812671544001, -279.62092426370253, -0.03848440028498541, -0.830048727048743, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -14.835640709545093, 5.369291187155557, 281.19764080332925 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -14.835640709545093, 5.369291187155557, 281.19764080332925 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9865694933699147, -0.11504249922344413, -0.11595627677816159, -14.835640709545093, 0.15959159083209684, 0.5276395210911997, 0.8343422918193287, -281.19764080332925, -0.034801708111963925, -0.8416422988152824, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -48.731338597228, 3.8415175317260637, 279.9692264348614 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -48.731338597228, 3.8415175317260637, 279.9692264348614 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9751129953829306, -0.11749928754666565, -0.18801213700544586, -48.731338597228, 0.22119273654576913, 0.4577724791423332, 0.861114470113745, -279.9692264348614, -0.015113554668658581, -0.8812708294082517, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -12.656438854482113, 4.498106259638725, 281.2938116607386 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -12.656438854482113, 4.498106259638725, 281.2938116607386 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9872029890679632, -0.1119217125563098, -0.1135948442216538, -12.656438854482113, 0.15612277001041136, 0.5331691746397089, 0.8314783893152533, -281.2938116607386, -0.03249521594873974, -0.8385726930162193, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -49.534599801250366, 3.931931184405375, 283.54053917952655 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -49.534599801250366, 3.931931184405375, 283.54053917952655 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9655298683895956, -0.11239614839901321, -0.23477474112995456, -49.534599801250366, 0.2602726467189222, 0.42797077578036846, 0.865505149867912, -283.54053917952655, 0.0031972828303578065, -0.8967765166991254, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -12.888794295783935, 4.471360340093458, 279.99303171430313 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -12.888794295783935, 4.471360340093458, 279.99303171430313 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.988694249517727, -0.11522856124969494, -0.09594821333877888, -12.888794295783935, 0.1419197935602787, 0.5125735708582189, 0.8468335767159106, -279.99303171430313, -0.048398896334383476, -0.8508764382270669, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -15.301109506144547, 4.8725541361781985, 283.30260503573834 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -15.301109506144547, 4.8725541361781985, 283.30260503573834 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9882347241147903, -0.09406033997298771, -0.12060175163707346, -15.301109506144547, 0.15130609182446517, 0.486125469608743, 0.8606907077309979, -283.30260503573834, -0.022329277430559725, -0.8688122238100966, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -50.92898158983022, 4.409697321398848, 280.17440257158813 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -50.92898158983022, 4.409697321398848, 280.17440257158813 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9691741377677019, -0.11698466161327693, -0.21683191561543425, -50.92898158983022, 0.2462934995248494, 0.4371546840280712, 0.8650059504559032, -280.17440257158813, -0.006403340849488268, -0.8917456875026336, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -14.875170473067515, 4.923194517038231, 280.3095323766978 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -14.875170473067515, 4.923194517038231, 280.3095323766978 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9891728929091621, -0.10591181844106447, -0.10158579944178316, -14.875170473067515, 0.14277675652373756, 0.5344482473394885, 0.8330545412590404, -280.3095323766978, -0.033937968859089916, -0.8385390614814887, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -50.82238406442339, 3.9758254993588267, 283.46847504955616 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -50.82238406442339, 3.9758254993588267, 283.46847504955616 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9595912753097535, -0.10665901578768071, -0.2604005351388588, -50.82238406442339, 0.28129243012863875, 0.38887346938771516, 0.8772981212556462, -283.46847504955616, 0.007691105364357066, -0.915096322338564, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -13.999987123780722, 4.51943186446783, 277.29830841208997 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -13.999987123780722, 4.51943186446783, 277.29830841208997 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.989012681797975, -0.11373207037426192, -0.09444009429877342, -13.999987123780722, 0.14133341244663625, 0.540133508716134, 0.8296268192917745, -277.29830841208997, -0.0433449162989881, -0.8338589862383098, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -14.508291318618431, 5.274307877436756, 283.9087662483087 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -14.508291318618431, 5.274307877436756, 283.9087662483087 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9945385142567092, -0.09420783362287717, -0.04492246369180744, -14.508291318618431, 0.08696259921790234, 0.509977578310878, 0.8557805653071582, -283.9087662483087, -0.05771178386884221, -0.8550133061562591, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -48.63284711903577, 28.196352260676605, 254.22725838093143 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -48.63284711903577, 28.196352260676605, 254.22725838093143 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9735003050876169, -0.12318252686479088, -0.19267387230634567, -48.63284711903577, 0.22216973414884889, 0.3097501950217281, 0.9244973909710243, -254.22725838093143, -0.05420115517723518, -0.9428047951507281, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 9 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 10 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -49.541866502478804, 22.690242915698526, 250.34165666977367 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -49.541866502478804, 22.690242915698526, 250.34165666977367 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.981676677211563, -0.10055686354606555, -0.1618617268307819, -49.541866502478804, 0.18505506162561675, 0.3004961350816932, 0.9356584296460455, -250.34165666977367, -0.0454480537053446, -0.9484673900534181, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -12.980961207099755, 24.295819216908825, 247.57440897126696 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -12.980961207099755, 24.295819216908825, 247.57440897126696 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9922865250184345, -0.11758167757881452, -0.03926832520736316, -12.980961207099755, 0.08730288176150144, 0.4379422103236474, 0.8947540596459874, -247.57440897126696, -0.08800942621660945, -0.8912806345448048, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -49.65363654004648, 21.641571690415432, 247.10442302883985 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -49.65363654004648, 21.641571690415432, 247.10442302883985 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.974522981278264, -0.1198793085373173, -0.18956241807156596, -49.65363654004648, 0.21907649984018995, 0.32764020688197387, 0.9190524370524833, -247.10442302883985, -0.04806710078937293, -0.9371663919598014, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -13.701444377098314, 23.133981867865167, 248.60403554362804 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -13.701444377098314, 23.133981867865167, 248.60403554362804 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9892090774954833, -0.12446740186473529, -0.07728691269275362, -13.701444377098314, 0.12094630482462881, 0.39601805057498646, 0.9102426571898589, -248.60403554362804, -0.08268852610733118, -0.9097678657173102, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5446082316934332, _y: -0.001616344022728852, _z: -0.07343601762254348, _w: 0.8354677807788243, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -47.29622695556788, 21.38653249888189, 247.4107963669406 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -47.29622695556788, 21.38653249888189, 247.4107963669406 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9672334192114406, -0.12078945104533871, -0.2233146239651834, -47.29622695556788, 0.2503283643520052, 0.30692763339682944, 0.918221725869232, -247.4107963669406, -0.04237006916911138, -0.9440367240598149, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5773209886628418, _y: 0.056094839721095725, _z: -0.1150506816622321, _w: 0.8064224610308665, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 4 aruco.js:187:21
+obsolete function arToolkitSource.onResize. Use arToolkitSource.onResizeElement threex-artoolkitsource.js:388:11
+obsolete function arToolkitSource.copySizeTo. Use arToolkitSource.copyElementSizeTo 2 threex-artoolkitsource.js:378:10
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 9 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 10 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 11 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 12 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -59.4383804005748, 13.418002199899012, 272.40816159417597 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -59.4383804005748, 13.418002199899012, 272.40816159417597 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9746684528852508, -0.09874004073354994, -0.20067837777450862, -59.4383804005748, 0.22324617343108594, 0.3753100198452448, 0.8996129918204491, -272.40816159417597, -0.013511217511719513, -0.9216250828616259, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5503435882216932, _y: 0.05655836433919787, _z: -0.09729812424013691, _w: 0.827318657680278, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 13 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 14 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 15 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 16 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 17 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 18 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 19 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 20 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 21 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 9 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 22 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 10 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 23 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 11 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 24 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 12 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 25 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 13 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -20.10746435767536, 15.50552485246288, 274.13118867095795 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -20.10746435767536, 15.50552485246288, 274.13118867095795 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9939726014756696, -0.07940280879863204, -0.0755887655050505, -20.10746435767536, 0.10301375188557024, 0.4405980634165094, 0.8917743624012071, -274.13118867095795, -0.03750512549169514, -0.8941859652603082, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5261303435260388, _y: 0.011219151003866062, _z: -0.053738532850438274, _w: 0.8486301681881263, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 14 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 15 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 16 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -18.057201394668784, 15.753360388127922, 265.65301276978244 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -18.057201394668784, 15.753360388127922, 265.65301276978244 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9930511129063765, -0.09393213436846977, -0.07089598922640541, -18.057201394668784, 0.10855338739293982, 0.4984744014457504, 0.8600810619870772, -265.65301276978244, -0.045449414087809524, -0.8618004555790651, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.4973352744826265, _y: 0.007349796894901761, _z: -0.05848439135714236, _w: 0.865553684763966, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999998, y: 0.9999999999999997, z: 0.9999999999999998 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 17 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 18 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 19 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -18.122067625684366, 12.915072916383055, 268.5618685582045 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -18.122067625684366, 12.915072916383055, 268.5618685582045 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9951554687567801, -0.0837874650956665, -0.05143202986773627, -18.122067625684366, 0.08542283399461487, 0.4779444679655527, 0.8742265295525258, -268.5618685582045, -0.04866757067906428, -0.8743847815658546, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5085333290482447, _y: 0.000803963479645026, _z: -0.04920995086700801, _w: 0.8596345663277506, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 20 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -18.12083176910968, 13.129217778505216, 268.4404854674385 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -18.12083176910968, 13.129217778505216, 268.4404854674385 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9950701172831699, -0.0856539149516956, -0.0499886841545802, -18.12083176910968, 0.08636031517132586, 0.5005638187461746, 0.8613813089020194, -268.4404854674385, -0.048758154739160724, -0.8614518385932521, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.49724568917654816, _y: 0.0003551565327796506, _z: -0.04964690546501684, _w: 0.8661880761341181, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 21 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -55.46948499834652, 11.8892920257093, 271.7205012760786 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -55.46948499834652, 11.8892920257093, 271.7205012760786 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9768551727887969, -0.08884293846396972, -0.1945787852795291, -55.46948499834652, 0.21357478803362792, 0.3548316957634518, 0.9102089197530553, -271.7205012760786, -0.011822914706649161, -0.9306994144011913, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5604528721932536, _y: 0.05563886624469319, _z: -0.09206915970403286, _w: 0.8211699972872432, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -19.35078970839112, 12.828108676951665, 268.3402056272521 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -19.35078970839112, 12.828108676951665, 268.3402056272521 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9936863683398806, -0.08595456007581394, -0.07210558215334463, -19.35078970839112, 0.10509205771633358, 0.4880810208481121, 0.86644825378831, -268.3402056272521, -0.0392818123365795, -0.8685555426626659, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5028848647655636, _y: 0.009513856441792708, _z: -0.055374203070245036, _w: 0.8625253601834911, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -19.383299429085007, 12.769498342765635, 268.37573435555487 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -19.383299429085007, 12.769498342765635, 268.37573435555487 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.995504241888436, -0.08691589065917218, -0.037642161641612645, -19.383299429085007, 0.07592623641730456, 0.4946884497188219, 0.8657473906043798, -268.37573435555487, -0.056626062953679224, -0.8647132274145641, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5004378446917019, _y: -0.005490019569082484, _z: -0.047092873568228256, _w: 0.8644732989193721, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -56.37782441518704, 12.563427583519937, 270.5810502639431 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -56.37782441518704, 12.563427583519937, 270.5810502639431 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9780241987798098, -0.10071508624080654, -0.18255174062335844, -56.37782441518704, 0.20737672748472402, 0.379504655738565, 0.9016491053455773, -270.5810502639431, -0.021530431924082424, -0.9196916264032527, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5491968775371832, _y: 0.04855346306875896, _z: -0.09290027897765295, _w: 0.8290928109043723, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -19.797065044667978, 13.372334692939207, 269.70206842122315 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -19.797065044667978, 13.372334692939207, 269.70206842122315 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9929502995919133, -0.09469065400279833, -0.07129784418095757, -19.797065044667978, 0.10772748660412232, 0.470029895900942, 0.8760517596519676, -269.70206842122315, -0.04944179578341003, -0.8775565947583508, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5113715116181075, _y: 0.006373464450567542, _z: -0.05902735937631581, _w: 0.8573064369881801, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1.0000000000000002 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -20.22478025225058, 14.02810136415723, 268.4523330106063 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -20.22478025225058, 14.02810136415723, 268.4523330106063 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9953337535658234, -0.08807275515440581, -0.039419650075576344, -20.22478025225058, 0.07777146859045896, 0.49040953859283937, 0.8680150247146888, -268.4523330106063, -0.05711670233698771, -0.8670303767785017, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.50248221377222, _y: -0.005125199599908887, _z: -0.04802973606162552, _w: 0.8632372221037974, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -20.168355501008115, 14.215583458773082, 267.01323491767533 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -20.168355501008115, 14.215583458773082, 267.01323491767533 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.993210838544113, -0.10383546146823246, -0.05244451487218998, -20.168355501008115, 0.09503066535979358, 0.4642196559362523, 0.8806073379683494, -267.01323491767533, -0.0670924946605436, -0.8796125897144191, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5143091569949657, _y: -0.004279914127858442, _z: -0.05810561989172579, _w: 0.8556234629223207, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -20.22497554709569, 14.446987569694379, 268.4568407094083 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -20.22497554709569, 14.446987569694379, 268.4568407094083 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9953513219589917, -0.08795525373124062, -0.03923798179775469, -20.22497554709569, 0.07747186767973785, 0.48915501785053367, 0.8687493759594062, -268.4568407094083, -0.057217616104666906, -0.8677506795460995, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5031155813203491, _y: -0.005209233444922716, _z: -0.047929144655632014, _w: 0.862873323734245, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -20.23335420836862, 14.641609973648071, 269.5768539440579 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -20.23335420836862, 14.641609973648071, 269.5768539440579 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9942720282796557, -0.09722436612514426, -0.04439094966570755, -20.23335420836862, 0.08660436271171013, 0.48949024067019764, 0.8676975214024358, -269.5768539440579, -0.0626324048712648, -0.8665718244439962, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5024129971763485, _y: -0.005284498745613904, _z: -0.05325467052925727, _w: 0.8629699846507446, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -57.23797165895615, 13.470456535320205, 271.9683156538174 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -57.23797165895615, 13.470456535320205, 271.9683156538174 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9802685408627753, -0.09405039271488685, -0.17386233469311635, -57.23797165895615, 0.19649163759765495, 0.3677125527145037, 0.9089436258263631, -271.9683156538174, -0.021555142053753387, -0.9251713366757311, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5553419723379118, _y: 0.04611628959517718, _z: -0.08797168523215954, _w: 0.8256691614631285, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -20.22913460910748, 14.397094959530321, 268.68166207307786 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -20.22913460910748, 14.397094959530321, 268.68166207307786 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9944707315051139, -0.08933890652656248, -0.05519532552962993, -20.22913460910748, 0.0924199917084679, 0.49499050050945453, 0.8639692989557015, -268.68166207307786, -0.04986491063152935, -0.8642933322582316, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.4997424248714309, _y: 0.0015413366109041568, _z: -0.05255719293203303, _w: 0.8645767025175841, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -57.240444415659255, 13.222569563443473, 269.28284285868597 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -57.240444415659255, 13.222569563443473, 269.28284285868597 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9788880072323866, -0.11212320683725058, -0.1708995488149056, -57.240444415659255, 0.2020011117914024, 0.4030262626730049, 0.8926171533366741, -269.28284285868597, -0.031206091258671544, -0.9082941253164425, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5382135164110862, _y: 0.041748257064164525, _z: -0.09387800283299158, _w: 0.836522692082293, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -20.981895643007537, 14.383357925437382, 265.7993310400736 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -20.981895643007537, 14.383357925437382, 265.7993310400736 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9929058664327214, -0.10105920098505014, -0.06264964724362189, -20.981895643007537, 0.10610688705976168, 0.5153013773695735, 0.8504150862958088, -265.7993310400736, -0.05365881961033061, -0.8510296871304103, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.4886807882623294, _y: 0.0025823022901413275, _z: -0.05950124787365121, _w: 0.8704274929020045, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -20.8531140544833, 14.522644351976512, 268.5723445383164 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -20.8531140544833, 14.522644351976512, 268.5723445383164 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9936742214473397, -0.10289621469788086, -0.04498789428135921, -20.8531140544833, 0.0890406381641016, 0.47775727190349615, 0.8739678220041388, -268.5723445383164, -0.06843468701143214, -0.8724450459164613, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5079419060588924, _y: -0.0068194691009471516, _z: -0.05582458345130162, _w: 0.8595534484794585, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 0.9999999999999998, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.495120856013816, 14.361999874554376, 269.8161831993707 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.495120856013816, 14.361999874554376, 269.8161831993707 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9929628273577851, -0.09804459419161188, -0.06642349761519249, -21.495120856013816, 0.10528281626514296, 0.4740134777639581, 0.8742006357223708, -269.8161831993707, -0.0542250134616256, -0.8750419878199671, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.509398953550055, _y: 0.003552334581317446, _z: -0.05921120873728044, _w: 0.8584836165012129, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 9 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.279358704480032, 14.73102801751137, 268.76330343929897 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.279358704480032, 14.73102801751137, 268.76330343929897 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9937313322071278, -0.10135149413260383, -0.04717959333160431, -21.279358704480032, 0.0882588239368644, 0.45220882474772467, 0.8875345395068086, -268.76330343929897, -0.06861792322074721, -0.8861348957452078, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5203852577491602, _y: -0.00628989292104929, _z: -0.05563066729311972, _w: 0.8520943900888587, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 10 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.244887168210965, 14.803403469312197, 267.28861719699444 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.244887168210965, 14.803403469312197, 267.28861719699444 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9942669009671626, -0.09498105830284477, -0.049111385694418634, -21.244887168210965, 0.08983736498657927, 0.49295091294989907, 0.8654066357927521, -267.28861719699444, -0.05798773571560186, -0.8648572113277039, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5006641497720975, _y: -0.002568435007083547, _z: -0.053478525204357065, _w: 0.8639842936168249, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -58.58808734856354, 13.849158839794159, 271.054058018621 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -58.58808734856354, 13.849158839794159, 271.054058018621 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9771414169691217, -0.10199623978352591, -0.18652457830966596, -58.58808734856354, 0.2113636436998916, 0.37198735975604724, 0.9038533145945923, -271.054058018621, -0.022804853989501994, -0.9226170230663138, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.552293288145464, _y: 0.04950603522795313, _z: -0.09475465155573026, _w: 0.8267664920363139, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1.0000000000000002 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.67355881672727, 14.859193475388041, 268.474243822541 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.67355881672727, 14.859193475388041, 268.474243822541 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9924942255214666, -0.10424854134106286, -0.06393319900337524, -21.67355881672727, 0.10689683271346537, 0.4856238022861871, 0.8676073938187342, -268.474243822541, -0.05939932206998552, -0.8679295848635229, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5034252091438464, _y: 0.0013151364514037566, _z: -0.06124669505680251, _w: 0.8618643579816999, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.9318044239251, 14.77619895538402, 269.8501977683805 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.9318044239251, 14.77619895538402, 269.8501977683805 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.99448006739474, -0.09619573326804486, -0.04190198629631581, -21.9318044239251, 0.08085208892354519, 0.4480243108628231, 0.8903578811874425, -269.8501977683805, -0.06687552071761843, -0.8888310288108285, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5227635420747896, _y: -0.00733775555751386, _z: -0.052020415665469215, _w: 0.8508573986131811, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -22.102395926194244, 15.066146986858746, 268.3715992701429 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -22.102395926194244, 15.066146986858746, 268.3715992701429 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9936891627958656, -0.10493011423266264, -0.03964238727892516, -22.102395926194244, 0.08593981830371239, 0.48507649824839855, 0.8702385526262305, -268.3715992701429, -0.07208464033326947, -0.8681534783517209, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5043757850450702, _y: -0.009412771435514751, _z: -0.05537886181540759, _w: 0.8616551797895153, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -58.58647978796638, 13.491796147673359, 270.9841881703705 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -58.58647978796638, 13.491796147673359, 270.9841881703705 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9808785001740921, -0.1000061926326029, -0.1669614606169771, -58.58647978796638, 0.19222110558281968, 0.3635000333648844, 0.911547460263176, -270.9841881703705, -0.030469894399918117, -0.9262108222099646, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5571368320161708, _y: 0.04137893406567142, _z: -0.08859195069837204, _w: 0.824644044723559, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.697177216689177, 14.526916065141657, 268.67096782051567 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.697177216689177, 14.526916065141657, 268.67096782051567 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9933939398021117, -0.1044759297064292, -0.047468520899812246, -21.697177216689177, 0.09193144460232844, 0.4769711674017086, 0.8740978863724478, -268.67096782051567, -0.06868107350477035, -0.87268739281568, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5081825169412866, _y: -0.006171249839331895, _z: -0.057139704010125386, _w: 0.8593296802603032, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.92717793407355, 13.589993590684147, 269.8205038133205 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.92717793407355, 13.589993590684147, 269.8205038133205 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9938813449510735, -0.09817577236324417, -0.050610175648040705, -21.92717793407355, 0.09098003983945199, 0.4678469796439425, 0.8791142337539827, -269.8205038133205, -0.06262990107813358, -0.8783397528057812, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5128640034810483, _y: -0.003507622135181724, _z: -0.05519985608151518, _w: 0.8566861656458147, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.693496565956057, 12.847329802958056, 268.6382577868835 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.693496565956057, 12.847329802958056, 268.6382577868835 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9932702608042954, -0.10502628735489614, -0.048822822186080646, -21.693496565956057, 0.09381141777955272, 0.48233555374021353, 0.8709488110631481, -268.6382577868835, -0.06792353712784018, -0.8696676908811596, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5054682188042267, _y: -0.005546772852442702, _z: -0.05774169125316363, _w: 0.8608931467847971, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.922840386383253, 12.542763735694916, 269.68712437029376 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.922840386383253, 12.542763735694916, 269.68712437029376 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9936501337354579, -0.1008231554533839, -0.049940995704225034, -21.922840386383253, 0.09361910443695168, 0.49467330259576636, 0.8640218671905362, -269.68712437029376, -0.06240893375094448, -0.8632108751767555, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.49950116725088706, _y: -0.0036056227135970917, _z: -0.05623106452058547, _w: 0.8644788318881673, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.260568432092697, 12.356234051704128, 268.59580387085515 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.260568432092697, 12.356234051704128, 268.59580387085515 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9923327987073836, -0.10516787600852354, -0.06492560716256086, -21.260568432092697, 0.10867579737384109, 0.4922663528107962, 0.8636338396308453, -268.59580387085515, -0.05886584472112148, -0.8640680272676524, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5000362975622455, _y: 0.0017538333629074632, _z: -0.061891232940080976, _w: 0.8637882266354026, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -58.104066108733264, 11.320282154460923, 270.6321551341106 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -58.104066108733264, 11.320282154460923, 270.6321551341106 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9813009865730783, -0.11020620922737914, -0.15780673369167245, -58.104066108733264, 0.18951456913378287, 0.40985035301824185, 0.8922482368807794, -270.6321551341106, -0.033654150364255696, -0.9054707502611853, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5358120928863769, _y: 0.037003812044991334, _z: -0.0893321028947591, _w: 0.8387823879906277, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.79093973468655, 12.16592934872605, 272.5746026498541 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.79093973468655, 12.16592934872605, 272.5746026498541 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9933881990505303, -0.10358872345883234, -0.04949002282595559, -21.79093973468655, 0.09227296675158564, 0.4639508857683377, 0.881042152908495, -272.5746026498541, -0.068305092006415, -0.8797834687961263, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5145375446906982, _y: -0.005498022847899708, _z: -0.05723348861897933, _w: 0.8555379679645626, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.92229308720768, 11.701176937022367, 269.6770284457393 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.92229308720768, 11.701176937022367, 269.6770284457393 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9936052891886674, -0.10107315432247849, -0.05032640233126994, -21.92229308720768, 0.09426312687979874, 0.4972032780776378, 0.8624983264793583, -269.6770284457393, -0.06215297424216613, -0.861726823154621, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.49820947718833686, _y: -0.003417251053267981, _z: -0.05644180897973757, _w: 0.8652109346477643, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -59.18479815049389, 10.09527647344672, 272.12044454483123 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -59.18479815049389, 10.09527647344672, 272.12044454483123 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9767235049903361, -0.11887148475145909, -0.17855185496761622, -59.18479815049389, 0.21178065210611058, 0.4022293179951371, 0.8907078820458915, -272.12044454483123, -0.03406097756823168, -0.9077891527541793, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5376924486069221, _y: 0.043198099394628264, _z: -0.09885429537214759, _w: 0.8362108485341843, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -22.345447127023682, 11.423981647328922, 269.60918653566983 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -22.345447127023682, 11.423981647328922, 269.60918653566983 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9938250009923634, -0.10264081347851373, -0.04215128480838814, -22.345447127023682, 0.08857950908837733, 0.5051211327960027, 0.858490717347919, -269.60918653566983, -0.06682468086112327, -0.8569232781360019, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.49437080845852716, _y: -0.0071107072614078086, _z: -0.055108414476020495, _w: 0.8674733449739214, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -22.111753163382346, 11.17022834208587, 268.65163491400483 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -22.111753163382346, 11.17022834208587, 268.65163491400483 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9929984413048433, -0.10637614646168203, -0.05136351847483128, -22.111753163382346, 0.0970967382790899, 0.48737149743679953, 0.8677794920956438, -268.65163491400483, -0.06727792343490901, -0.8666909131577268, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.502826766820534, _y: -0.004613620830722442, _z: -0.05898723463944252, _w: 0.8623598223602663, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.694753037876957, 11.654479460897608, 268.5128054521819 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.694753037876957, 11.654479460897608, 268.5128054521819 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9939904595771993, -0.10462569413089728, -0.03219363907879855, -21.694753037876957, 0.07868943647923152, 0.47847770209330304, 0.8745667848632792, -268.5128054521819, -0.076098218481703, -0.8718443397345309, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5078576448106111, _y: -0.012767484115227722, _z: -0.053308175365207655, _w: 0.8596952031947246, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 0.9999999999999999, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -58.560186800972296, 10.335005033439387, 270.83669696690094 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -58.560186800972296, 10.335005033439387, 270.83669696690094 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9793727961853506, -0.10903425177377946, -0.17011895259558818, -58.560186800972296, 0.19997003015566056, 0.40218155161175684, 0.8934550836962675, -270.83669696690094, -0.028998502230841446, -0.9090442956662189, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5388650088802904, _y: 0.042188570830956756, _z: -0.09237817057382167, _w: 0.8362481092935994, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -22.09172584909668, 11.867779618518545, 271.99352931399756 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -22.09172584909668, 11.867779618518545, 271.99352931399756 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9922250135902335, -0.10412790564019866, -0.06816818666244928, -22.09172584909668, 0.10811908695177622, 0.4498932136096374, 0.8865135979694316, -271.99352931399756, -0.06164239971460308, -0.8869912488942486, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5207394468226411, _y: 0.0019161124320090715, _z: -0.062320315451954156, _w: 0.8514358081018009, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 0.9999999999999999 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -22.349284174778205, 11.626332315210652, 269.73273490532233 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -22.349284174778205, 11.626332315210652, 269.73273490532233 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9939838475320885, -0.10031634267922404, -0.043962964376512724, -22.349284174778205, 0.08719909005394556, 0.48192320591145577, 0.871863717732186, -269.73273490532233, -0.0662754067439041, -0.8704519831647748, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5060358844475846, _y: -0.006480396464174658, _z: -0.054461736068756664, _w: 0.8607668717006917, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -22.256413791356316, 11.518122399643005, 267.0243500417709 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -22.256413791356316, 11.518122399643005, 267.0243500417709 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9921816425581088, -0.11054351832511501, -0.05792856572536593, -22.256413791356316, 0.10546773466922814, 0.4945157325782667, 0.8627460502235413, -267.0243500417709, -0.06672439669591905, -0.8621103878210059, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.49883807585713497, _y: -0.0025438032407436727, _z: -0.06247165586102186, _w: 0.8644370395547647, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -22.772705783232812, 11.908193825764247, 269.8722641909748 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -22.772705783232812, 11.908193825764247, 269.8722641909748 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9935206285707999, -0.10011214139094146, -0.053798882427077685, -22.772705783232812, 0.09504683133725209, 0.4723583709145489, 0.8762668938626527, -269.8722641909748, -0.06231260271430121, -0.8757026484903844, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5104775044644362, _y: -0.002480672512201888, _z: -0.056864153721718096, _w: 0.8580052632246271, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -22.510473397590808, 11.444261448892469, 271.95180551041994 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -22.510473397590808, 11.444261448892469, 271.95180551041994 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9920769394033249, -0.10486119152466569, -0.06919159498204192, -22.510473397590808, 0.10947921759862364, 0.45143961421271844, 0.8855600350249919, -271.95180551041994, -0.061625053493889664, -0.8861187308885301, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.519926526826737, _y: 0.002220518590455039, _z: -0.06290150710060116, _w: 0.8518890047438978, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -59.42692081850536, 9.981743673167873, 270.88082422464936 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -59.42692081850536, 9.981743673167873, 270.88082422464936 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9821981821020687, -0.10822720361002303, -0.15353697754660273, -59.42692081850536, 0.18414867115704292, 0.3933415671708177, 0.9007617212374758, -270.88082422464936, -0.037094446841631726, -0.9130001554952549, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5437341599952743, _y: 0.03490743875080413, _z: -0.08764918521483517, _w: 0.8339378000218408, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999998, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -22.521424277893676, 11.298833641322126, 268.36983357071006 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -22.521424277893676, 11.298833641322126, 268.36983357071006 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9933678856008008, -0.10681554067270099, -0.042552134233113444, -22.521424277893676, 0.09033305862034388, 0.4960602198972308, 0.8635763989108345, -268.36983357071006, -0.07113495889707018, -0.8616929258769099, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.4987204626432625, _y: -0.008262385086927511, _z: -0.05698938666343866, _w: 0.8648478727159422, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.929793424889446, 10.987505529848281, 269.8132031707076 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.929793424889446, 10.987505529848281, 269.8132031707076 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9942833781578617, -0.09734847158498693, -0.04386158910775691, -21.929793424889446, 0.08399759049431525, 0.4595470041779205, 0.8841724694550537, -269.8132031707076, -0.0659163766460204, -0.8828022576042528, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5171168603884789, _y: -0.0064544796898722, _z: -0.053072126516677344, _w: 0.854243432389675, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -58.14123969668257, 9.685422273899928, 270.88634118611 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -58.14123969668257, 9.685422273899928, 270.88634118611 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9798092655335318, -0.10225811689978523, -0.17180535702576546, -58.14123969668257, 0.19796095399819022, 0.3757452110302032, 0.9053325339785344, -270.88634118611, -0.02802255996099014, -0.9210639575599394, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5512853845515369, _y: 0.04339986138769939, _z: -0.09061908885418435, _w: 0.8282445638497303, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 0.9999999999999999, y: 0.9999999999999999, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker found: 1 aruco.js:162:21
+Pose received for marker ID: 1 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -21.271274910665355, 10.951897614261682, 268.6873807258477 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 1 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -21.271274910665355, 10.951897614261682, 268.6873807258477 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.9934507477593957, -0.10257783745990808, -0.05033288227735822, -21.271274910665355, 0.09258733384503491, 0.4645576800999957, 0.8806893592360353, -268.6873807258477, -0.06695668292086888, -0.8795816898515788, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5142665856597838, _y: -0.004856675454645639, _z: -0.05701788161472186, _w: 0.8557191436175343, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1, z: 1 }
+aruco.js:131:17
+Marker ID: 1 is visible aruco.js:181:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker found: 0 aruco.js:162:21
+Pose received for marker ID: 0 rotation: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+ translation: 
+Array(3) [ -57.68421988562006, 9.406610962344287, 270.67116818374376 ]
+aruco.js:171:25
+updateObjectPose called for marker ID: 0 aruco.js:83:17
+  Rotation input: 
+Array(3) [ (3) […], (3) […], (3) […] ]
+aruco.js:84:17
+  Translation input: 
+Array(3) [ -57.68421988562006, 9.406610962344287, 270.67116818374376 ]
+aruco.js:85:17
+  ModelMatrix before decompose: 
+Array(16) [ 0.981642377655977, -0.10432564122967308, -0.15966966829031118, -57.68421988562006, 0.18796951750638863, 0.387230254427933, 0.9026185188351135, -270.67116818374376, -0.03233732948677008, -0.9160616194545518, … ]
+aruco.js:128:17
+  Object position after decompose: 
+Object { x: -3, y: 0, z: -3 }
+aruco.js:129:17
+  Object quaternion after decompose: 
+Object { _x: 0.5465071946291268, _y: 0.03826293464145442, _z: -0.08783370084788268, _w: 0.8319561737535159, onChangeCallback: onQuaternionChange() }
+aruco.js:130:17
+  Object scale after decompose: 
+Object { x: 1, y: 1.0000000000000002, z: 1 }
+aruco.js:131:17
+Marker ID: 0 is visible aruco.js:181:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 1 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 2 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 3 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 4 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 5 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 6 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 9 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 7 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 10 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 8 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 11 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 9 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 12 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 10 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 13 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 11 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 14 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 12 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 15 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 13 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 16 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 14 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 17 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 15 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 18 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 16 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 19 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 17 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 20 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 18 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 21 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 19 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 22 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 20 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 23 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 21 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 24 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 22 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 25 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 23 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 26 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 24 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 27 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 25 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 28 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 26 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 29 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 27 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 30 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 28 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 31 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 29 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 32 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 30 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 33 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 31 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 34 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 32 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 35 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 33 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 36 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 34 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 37 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 35 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 38 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 36 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 39 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 37 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 40 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 38 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 41 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 39 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 42 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 40 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 43 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 41 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 44 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 42 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 45 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 43 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 46 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 44 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 47 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 45 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 48 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 46 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 49 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 47 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 50 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 48 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 51 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 49 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 52 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 50 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 53 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 51 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 54 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 52 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 55 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 53 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 56 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 54 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 57 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 55 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 58 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 56 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 59 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 57 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 60 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 58 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 61 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 59 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 62 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 60 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 63 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 61 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 64 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 62 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 65 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 63 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 66 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 64 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 67 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 65 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 68 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 66 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 69 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 67 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 70 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 68 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 71 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 69 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 72 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 70 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 73 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 71 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 74 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 72 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 75 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 73 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 76 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 74 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 77 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 75 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 78 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 76 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 79 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 77 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 80 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 78 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 81 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 79 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 82 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 80 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 83 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 81 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 84 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 82 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 85 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 83 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 86 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 84 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 87 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 85 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 88 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 86 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 89 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 87 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 90 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 88 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 91 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
+Marker ID: 0 not visible, frames lost: 89 aruco.js:187:21
+Aruco update called for marker ID: 1 aruco.js:139:17
+Marker ID: 1 not visible, frames lost: 92 aruco.js:187:21
+Aruco update called for marker ID: 0 aruco.js:139:17
