@@ -26,7 +26,7 @@ var ArucoMarkerControls = function (arToolkitContext, object3d, parameters, canv
     this.id = parameters.id;
     this.modelSize = parameters.modelSize; // Розмір маркера в мм (має передаватися з конфігурації)
     this.context = arToolkitContext; // Зберігаємо посилання на контекст для трансформації
-    
+
     // Змінні для корекції позиції
     this.positionOffsetX = 0;
     this.positionOffsetZ = 0;
@@ -83,42 +83,33 @@ var ArucoMarkerControls = function (arToolkitContext, object3d, parameters, canv
 
     /**
      * Функція для оновлення позиції 3D-об'єкта через пряме встановлення quaternion та position.
-     * Цей підхід забезпечує більшу стабільність порівняно з matrix.decompose().
+     * ВЕРСІЯ ДЛЯ ТЕСТУВАННЯ: тільки корекція X×π/2, без трансформації ARToolKit.
      * @param {Array} rotation - Матриця обертання 3x3 від POSIT.
      * @param {Array} translation - Вектор переміщення від POSIT.
      */
     var updateObjectPose = function(rotation, translation) {
         var object = _this.object3d;
 
-        // Конвертуємо матрицю обертання з POSIT у формат Three.js
-        // POSIT повертає матрицю у стовпчиковому порядку (column-major)
+        // Створюємо матрицю обертання з POSIT даних
+        var rotMatrix = new THREE.Matrix4();
+        
+        // POSIT повертає матрицю обертання у стовпчиковому порядку (column-major)
         // THREE.Matrix4.set() приймає параметри у рядковому порядку (row-major)
         // Тому транспонуємо матрицю: rotation[col][row] замість rotation[row][col]
-        var rotMatrix = new THREE.Matrix4();
         rotMatrix.set(
             rotation[0][0], rotation[1][0], rotation[2][0], 0,  // 1-й рядок (транспоновано)
             rotation[0][1], rotation[1][1], rotation[2][1], 0,  // 2-й рядок (транспоновано)
             rotation[0][2], rotation[1][2], rotation[2][2], 0,  // 3-й рядок (транспоновано)
             0, 0, 0, 1
         );
-
+        
         // Корекція орієнтації: поворот на 90° навколо X осі
         // Це потрібно, щоб Y вісь об'єкта була перпендикулярна до площини маркера
         var correctionMatrix = new THREE.Matrix4();
         correctionMatrix.makeRotationX(Math.PI / 2);
         rotMatrix.multiply(correctionMatrix);
-
-        // ЗАСТОСУВАТИ ТРАНСФОРМАЦІЮ ARTOOLKIT (Y×π + Z×π)
-        // Це забезпечує однакову поведінку для ArUco та barcode-маркерів
-        if (_this.context && _this.context._artoolkitProjectionAxisTransformMatrix) {
-            var tmpMatrix = new THREE.Matrix4().copy(
-                _this.context._artoolkitProjectionAxisTransformMatrix
-            );
-            tmpMatrix.multiply(rotMatrix);
-            rotMatrix.copy(tmpMatrix);
-        }
-
-        // Встановлюємо кватерніон з матриці обертання з урахуванням корекції
+        
+        // Встановлюємо кватерніон з матриці обертання
         _this.targetQuaternion.setFromRotationMatrix(rotMatrix);
 
         // Встановлення позиції (інвертуємо Z для узгодження з Three.js)
@@ -127,24 +118,24 @@ var ArucoMarkerControls = function (arToolkitContext, object3d, parameters, canv
             translation[1],
             -translation[2]
         );
-
-        // Корекція позиції: додаємо зміщення
+        
+        // Корекція позиції: додаємо зміщення (-10% від розміру маркера)
         _this.targetPosition.x += _this.positionOffsetX;
         _this.targetPosition.z += _this.positionOffsetZ;
-
+        
         // Ініціалізуємо поточну позицію при першому оновленні
         if (_this.firstUpdate) {
             _this.currentPosition.copy(_this.targetPosition);
             _this.currentQuaternion.copy(_this.targetQuaternion);
             _this.firstUpdate = false;
         }
-
+        
         // Ітерполяція позиції (LERP) для плавності
         _this.currentPosition.lerp(_this.targetPosition, _this.lerpFactor);
-
+        
         // Ітерполяція кватерніона (SLERP) для плавного обертання
         _this.currentQuaternion.slerp(_this.targetQuaternion, _this.lerpFactor);
-
+        
         // Застосовуємо інтерпольовані значення до об'єкта
         object.position.copy(_this.currentPosition);
         object.quaternion.copy(_this.currentQuaternion);

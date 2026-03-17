@@ -25,7 +25,6 @@ var ArucoMarkerControls = function (arToolkitContext, object3d, parameters, canv
     this.object3d = object3d;
     this.id = parameters.id;
     this.modelSize = parameters.modelSize; // Розмір маркера в мм (має передаватися з конфігурації)
-    this.context = arToolkitContext; // Зберігаємо посилання на контекст для трансформації
     
     // Змінні для корекції позиції
     this.positionOffsetX = 0;
@@ -102,21 +101,13 @@ var ArucoMarkerControls = function (arToolkitContext, object3d, parameters, canv
             0, 0, 0, 1
         );
 
-        // Корекція орієнтації: поворот на 90° навколо X осі
-        // Це потрібно, щоб Y вісь об'єкта була перпендикулярна до площини маркера
+        // Корекція орієнтації: POSIT повертає систему, де Z спрямований на камеру
+        // (перпендикулярно площині маркера). Для Three.js нам потрібно, щоб Y вісь
+        // об'єкта була перпендикулярна площині маркера і спрямована ВГОРУ.
+        // Поворот на +90° навколо X осі: Y→-Z, Z→Y (Y стає перпендикулярно до маркера і спрямований вгору)
         var correctionMatrix = new THREE.Matrix4();
         correctionMatrix.makeRotationX(Math.PI / 2);
         rotMatrix.multiply(correctionMatrix);
-
-        // ЗАСТОСУВАТИ ТРАНСФОРМАЦІЮ ARTOOLKIT (Y×π + Z×π)
-        // Це забезпечує однакову поведінку для ArUco та barcode-маркерів
-        if (_this.context && _this.context._artoolkitProjectionAxisTransformMatrix) {
-            var tmpMatrix = new THREE.Matrix4().copy(
-                _this.context._artoolkitProjectionAxisTransformMatrix
-            );
-            tmpMatrix.multiply(rotMatrix);
-            rotMatrix.copy(tmpMatrix);
-        }
 
         // Встановлюємо кватерніон з матриці обертання з урахуванням корекції
         _this.targetQuaternion.setFromRotationMatrix(rotMatrix);
@@ -127,7 +118,7 @@ var ArucoMarkerControls = function (arToolkitContext, object3d, parameters, canv
             translation[1],
             -translation[2]
         );
-
+        
         // Корекція позиції: додаємо зміщення
         _this.targetPosition.x += _this.positionOffsetX;
         _this.targetPosition.z += _this.positionOffsetZ;

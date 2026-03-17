@@ -25,7 +25,7 @@
     <script type="text/javascript" src="js-aruco2/src/cv.js"></script>
     <script type="text/javascript" src="js-aruco2/src/aruco.js"></script>
     <script type="text/javascript" src="js-aruco2/src/dictionaries/aruco_4x4_1000.js"></script>
-    <script src="js/aruco.js"></script>
+    <script src="js/aruco-test.js"></script>
 </head>
 
 <body style='margin : 0px; overflow: hidden; font-family: Monospace; user-select: none; pointer-events: none;'>
@@ -330,13 +330,11 @@
             let contentInitialized = false;
             let barcodesSound = new Map();
             let patternsSound = new Map();
-            let arucoSound = new Map(); // Додано для ArUco-маркерів
             let barcodesID = [];
             let patternsID = [];
             // Map barcode values and pattern names to marker indices for audio lookup
             let barcodeToMarkerIndex = new Map();
             let patternToMarkerIndex = new Map();
-            let arucoToMarkerIndex = new Map(); // Додано для ArUco-маркерів
 
             let arucoControls = [];
 
@@ -1814,13 +1812,7 @@
                                 if (patternBarcode[i] === -1) {
                                     patternsSound.set(i, soundData);
                                 } else {
-                                    // Перевіряємо, чи це ArUco-маркер
-                                    if (config.markers[i].type.startsWith('aruco:')) {
-                                        arucoSound.set(i, soundData);
-                                        arucoToMarkerIndex.set(config.markers[i].target, i);
-                                    } else {
-                                        barcodesSound.set(patternBarcode[i], soundData);
-                                    }
+                                    barcodesSound.set(patternBarcode[i], soundData);
                                 }
                                 resolve(sound)
                             });
@@ -1844,83 +1836,56 @@
 
             function checkController() {
                 // Виконуємо перевірку тільки якщо контролер існує в сцені
-                if (!controller || !controller.parent) {
-                    // Контролер ще не активний - скидаємо всі колізії
-                    if (currentIntersectedMarker !== null) {
-                        currentIntersectedMarker = null;
-                        // Reset all markers to first content
-                        for (let i = 0; i < markerRoots.length; i++) {
-                            if (markerContentState.get(i)) {
-                                switchMarkerContent(i, false);
-                            }
-                            if (markerSoundPlayed.has(i)) {
-                                markerSoundPlayed.delete(i);
-                            }
-                            if (markerAudioTimeouts.has(i)) {
-                                clearTimeout(markerAudioTimeouts.get(i));
-                                markerAudioTimeouts.delete(i);
-                            }
-                        }
-                    }
-                    return;
-                }
-                
-                // Перевіряємо видимість контролера та всіх його батьківських контейнерів
-                let isVisible = controller.visible;
-                let parent = controller.parent;
-                while (parent) {
-                    if (!parent.visible) {
-                        isVisible = false;
-                        break;
-                    }
-                    parent = parent.parent;
-                }
-                
-                if (!isVisible) {
-                    // Контролер або його батьківський контейнер невидимий - скидаємо всі колізії
-                    if (currentIntersectedMarker !== null) {
-                        currentIntersectedMarker = null;
-                        // Reset all markers to first content
-                        for (let i = 0; i < markerRoots.length; i++) {
-                            if (markerContentState.get(i)) {
-                                switchMarkerContent(i, false);
-                            }
-                            if (markerSoundPlayed.has(i)) {
-                                markerSoundPlayed.delete(i);
-                            }
-                            if (markerAudioTimeouts.has(i)) {
-                                clearTimeout(markerAudioTimeouts.get(i));
-                                markerAudioTimeouts.delete(i);
-                            }
-                        }
-                    }
-                    return;
-                }
-
-                let intersectedMarkerIndex = null;
-
-                mainContainer.traverse((object) => {
-                    if (object.isMesh && !(object.userData && object.userData.isController)) {
-                        if (detectCollisionCubes(object, controller)) {
-                            // Find which marker this object belongs to
-                            // Для складних об'єктів (групи) потрібно підніматися вгору по ієрархії
-                            let parent = object.parent;
-                            while (parent) {
-                                for (let i = 0; i < markerRoots.length; i++) {
-                                    if (markerRoots[i] === parent) {
-                                        intersectedMarkerIndex = i;
-                                        break;
-                                    }
+                if (controller && controller.parent) {
+                    // Перевіряємо, чи контролер видно камері
+                    // Якщо батьківський контейнер невидимий (маркер за межами камери) - ігноруємо колізії
+                    if (controller.parent.visible === false) {
+                        // Контролер не видно - скидаємо всі колізії
+                        if (currentIntersectedMarker !== null) {
+                            currentIntersectedMarker = null;
+                            // Reset all markers to first content
+                            for (let i = 0; i < markerRoots.length; i++) {
+                                if (markerContentState.get(i)) {
+                                    switchMarkerContent(i, false);
                                 }
-                                if (intersectedMarkerIndex !== null) break;
-                                parent = parent.parent;
+                                if (markerSoundPlayed.has(i)) {
+                                    markerSoundPlayed.delete(i);
+                                }
+                                if (markerAudioTimeouts.has(i)) {
+                                    clearTimeout(markerAudioTimeouts.get(i));
+                                    markerAudioTimeouts.delete(i);
+                                }
                             }
                         }
+                        return;
                     }
-                });
+                    
+                    let intersectedMarkerIndex = null;
 
-                // Update current intersected marker for audio playback
-                currentIntersectedMarker = intersectedMarkerIndex;
+                    mainContainer.traverse((object) => {
+                        if (object.isMesh && !(object.userData && object.userData.isController)) {
+                            if (detectCollisionCubes(object, controller)) {
+                                //bject.material.color.set('red');
+
+                                // Find which marker this object belongs to
+                                // Для складних об'єктів (групи) потрібно підніматися вгору по ієрархії
+                                let parent = object.parent;
+                                while (parent) {
+                                    for (let i = 0; i < markerRoots.length; i++) {
+                                        if (markerRoots[i] === parent) {
+                                            intersectedMarkerIndex = i;
+                                            break;
+                                        }
+                                    }
+                                    if (intersectedMarkerIndex !== null) break;
+                                    parent = parent.parent;
+                                }
+                            }
+                        }
+                    });
+
+                    // Update current intersected marker for audio playback
+                    currentIntersectedMarker = intersectedMarkerIndex;
 
                     // Switch to alternative content for intersected marker if it has alternative content
                     if (intersectedMarkerIndex !== null && markerAlternativeContent.has(intersectedMarkerIndex)) {
@@ -1972,6 +1937,32 @@
                             markerAudioTimeouts.delete(i);
                         }
                     }
+                }
+                // Якщо контролер не активний, скидаємо всі об'єкти до білого кольору
+                else {
+                    // Clear intersected marker when controller is not active
+                    currentIntersectedMarker = null;
+
+                    // Reset all markers to first content when controller is not active
+                    for (let i = 0; i < markerRoots.length; i++) {
+                        if (markerContentState.get(i)) {
+                            switchMarkerContent(i, false);
+                        }
+                        // Reset audio played state for all markers
+                        if (markerAudioPlayed.has(i)) {
+                            markerAudioPlayed.delete(i);
+                        }
+                        // Reset sound played state for all markers
+                        if (markerSoundPlayed.has(i)) {
+                            markerSoundPlayed.delete(i);
+                        }
+                        // Cancel audio timeout for all markers
+                        if (markerAudioTimeouts.has(i)) {
+                            clearTimeout(markerAudioTimeouts.get(i));
+                            markerAudioTimeouts.delete(i);
+                        }
+                    }
+                }
             }
 
             // Функція для пошуку перетинів між двома об'єктами сцени
@@ -2256,64 +2247,6 @@
                                 }
                             }
                         }
-                        
-                        // === ОБРОБКА АУДІО ДЛЯ ARUCO-МАРКЕРІВ ===
-                        if (arucoControls && arucoControls.length > 0) {
-                            arucoSound.forEach((soundData, markerIndex) => {
-                                if (!soundData) return;
-                                
-                                let sound = soundData.sound || soundData;
-                                let playOnControllerIntersect = soundData.playOnControllerIntersect || false;
-                                
-                                // Для ArUco не можемо отримати статус детектування з arToolkitContext
-                                // Тому використовуємо тільки controllerIntersects
-                                let controllerIntersects = currentIntersectedMarker === markerIndex;
-                                
-                                // Determine if should play based on flag
-                                let shouldPlay = controllerIntersects;
-                                
-                                if (shouldPlay) {
-                                    // Play audio only if it hasn't been played yet for this intersection
-                                    if (!markerAudioPlayed.has(markerIndex)) {
-                                        // --- ЗАТРИМКА АУДІО: синхронізація з появою контенту (0.5 сек) ---
-                                        if (!markerAudioTimeouts.has(markerIndex)) {
-                                            var timeoutId = setTimeout(function() {
-                                                if (sound.nodeName === 'VIDEO') {
-                                                    if (sound.paused) {
-                                                        sound.play();
-                                                        markerAudioPlayed.add(markerIndex);
-                                                    }
-                                                } else {
-                                                    if (!sound.isPlaying) {
-                                                        sound.play();
-                                                        markerAudioPlayed.add(markerIndex);
-                                                    }
-                                                }
-                                                markerAudioTimeouts.delete(markerIndex);
-                                            }, controllerIntersectionDelay);
-                                            
-                                            markerAudioTimeouts.set(markerIndex, timeoutId);
-                                        }
-                                        // -----------------------------------------------------------------------
-                                    }
-                                } else {
-                                    // Reset audio state when not intersecting
-                                    markerAudioPlayed.delete(markerIndex);
-                                    
-                                    if (markerAudioTimeouts.has(markerIndex)) {
-                                        clearTimeout(markerAudioTimeouts.get(markerIndex));
-                                        markerAudioTimeouts.delete(markerIndex);
-                                    }
-                                    
-                                    if (sound.nodeName === 'VIDEO') {
-                                        if (!sound.paused) sound.pause();
-                                    } else {
-                                        if (sound.isPlaying) sound.stop();
-                                    }
-                                }
-                            });
-                        }
-                        // =========================================
                     }
                 }
             }

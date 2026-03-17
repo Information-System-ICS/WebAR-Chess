@@ -38,7 +38,7 @@
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [35, 5, 35],
+          "size": [30, 5, 30],
           "textureFile": "en_Man_2.jpg"
         }
       },
@@ -60,7 +60,7 @@
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [35, 5, 35],
+          "size": [30, 5, 30],
           "textureFile": "pt-pt_Homem.jpg"
         }
       },

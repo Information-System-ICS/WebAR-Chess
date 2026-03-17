@@ -1,0 +1,1100 @@
+favicon.ico:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+ARController._copyImageToHeap @ artoolkit.api.js:1027
+ Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+ArucoMarkerControls.detectMarkers @ aruco.js:243
+favicon.ico:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9772095712759774,-0.00023749795342926908,-0.21227670009057187],[-0.046607819992338984,0.9753580007454962,-0.21564897750119397],[0.20709699399600712,0.22062799907643377,0.9531181044872388]]
+ Translation vector: [-51.098553106111524,-21.273917516224827,237.5742431300856]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9978518506668655,0.02010870036352384,0.062348410488170816],[-0.028318276227531643,0.9906139192155817,0.13372411258948877],[-0.059074185159108616,-0.1352024527367572,0.9890553763170961]]
+ Translation vector: [-15.338594213917204,-23.06298997902712,238.21642450525843]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9772095712759774,-0.00023749795342926908,-0.21227670009057187],[-0.046607819992338984,0.9753580007454962,-0.21564897750119397],[0.20709699399600712,0.22062799907643377,0.9531181044872388]]
+ Translation vector: [-51.098553106111524,-21.273917516224827,237.5742431300856]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9978518506668655,0.02010870036352384,0.062348410488170816],[-0.028318276227531643,0.9906139192155817,0.13372411258948877],[-0.059074185159108616,-0.1352024527367572,0.9890553763170961]]
+ Translation vector: [-15.338594213917204,-23.06298997902712,238.21642450525843]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9667283190686602,-0.04292093034415864,-0.2521788072956862],[-0.04528956516952162,0.9415316492777737,-0.33386675290455525],[0.25176419999165617,0.33417951335572266,0.9082614383842872]]
+ Translation vector: [-48.768699849440644,-20.679416018146938,233.84768235703945]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9627143157328479,-0.01939173103704958,-0.26982421509275445],[-0.05957381865599565,0.9577435131687075,-0.2813864302236414],[0.263878961673296,0.2869692034881938,0.9208781514595591]]
+ Translation vector: [-48.26489544708304,-20.818273461073325,236.81688834409513]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9903012315680083,0.03032811382777192,-0.1355864162316249],[-0.06782222881086736,0.9572357227879035,-0.28124707340316685],[0.12125846788580202,0.2877150961113609,0.9500086354531826]]
+ Translation vector: [-33.20091134802105,-24.300964545379923,235.50569114723956]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9939258115297579,0.02345926647288564,-0.10752276034154962],[-0.06508162787263776,0.9131595377752191,-0.40237301137575804],[0.08874605843844376,0.4069266781457104,0.9091396018901267]]
+ Translation vector: [2.3750730273452896,-25.74809489245221,231.4828087360573]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9944624628697957,0.03275110762100132,-0.09985877473981818],[-0.06188098766293738,0.9504951432579285,-0.3045155595514773],[0.08494205853874481,0.30900865294144675,0.9472584119967016]]
+ Translation vector: [-30.35504698688533,-25.26130335982687,235.4694934339181]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9971567581883068,0.049119115576065346,-0.05714640919963169],[-0.06573126418902636,0.937805131313331,-0.3408825847568315],[0.03684834470500724,0.343669678859528,0.9383673861154221]]
+ Translation vector: [5.263226109467385,-27.36938641089519,234.26004078011522]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9964640403847895,0.030470515090657315,-0.07830047209391909],[-0.05478431906325237,0.9422015009484392,-0.33053745626673536],[0.0637031757826589,0.3336583272160583,0.9405392209124431]]
+ Translation vector: [-29.700912931900024,-25.440743594385005,235.6296737390048]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9977668474691302,0.05442094139739863,-0.03872569210400625],[-0.0639893178081941,0.9450439481552528,-0.32062018536201636],[0.019149028642605384,0.32238222220301277,0.946415879785146]]
+ Translation vector: [5.891954212081818,-27.52285055794294,235.691047667333]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9944547014695043,0.028684172964022817,-0.10117838181434421],[-0.06275450892210183,0.9338782829425641,-0.35204150928291683],[0.0843902739369001,0.3564387336831089,0.9304997102606948]]
+ Translation vector: [-28.88997132467816,-25.045752997030597,235.23805518524344]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9980062722661498,0.047039064773326596,-0.04208095653231504],[-0.05942872948452379,0.9248850227455518,-0.37557412159627745],[0.02125339100659224,0.37732614683614346,0.9258365256807004]]
+ Translation vector: [6.424425881932008,-27.084835502745953,233.59474806706237]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9974363687242026,0.046951594057901655,-0.05400220515588794],[-0.06126215694447422,0.9502761219775597,-0.3053231732538501],[0.036981596406688626,0.3078487287852785,0.950716320314583]]
+ Translation vector: [-28.31129454926941,-24.967611532510702,237.03329698183364]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9986148376221813,0.052223522876828465,0.006411687699636666],[-0.04747797494241032,0.9469097539473362,-0.3179744640293666],[-0.022677036318535012,0.31722960381674414,0.9480775972915293]]
+ Translation vector: [7.4390402637956985,-26.92795719091881,235.14422554942306]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9951736741091174,0.043757616387348895,-0.08783296287987631],[-0.06829690516102262,0.95156610488929,-0.2997623738417663],[0.07046198340656043,0.3043143424715999,0.9499620465368557]]
+ Translation vector: [-27.709895231284275,-24.668734458145494,236.384420883229]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9986468961414993,0.0448484375606371,-0.02632478822933289],[-0.05084880819103396,0.9482045554811618,-0.3135642193719235],[0.010898418807378688,0.31447851852414654,0.9492020258376807]]
+ Translation vector: [7.918146584518434,-26.636020403319964,235.96696840333553]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.997076363966623,0.02591648035665549,-0.07188226808484535],[-0.0484197581323687,0.9420412895852136,-0.33198454141575723],[0.05911219367864301,0.3344944614826243,0.940541973436565]]
+ Translation vector: [-27.48975525636816,-23.869162896588946,236.19585747161267]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.998536709021085,0.05310582880656444,0.010208412418626538],[-0.04730027162967934,0.9491860279214901,-0.311140753843631],[-0.02621307004338581,0.31020260370505,0.9503090126971903]]
+ Translation vector: [8.175100392128545,-25.833827088366835,235.20827733734404]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9985866615699432,0.046797189310246984,0.02519330084083336],[-0.038582201677607765,0.9643103695808818,-0.2619483247369448],[-0.03655260658700321,0.2606060900889394,0.9647530112729641]]
+ Translation vector: [-27.131229515627933,-23.325002888782016,236.46230885617868]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9984935006632741,0.053521881081928104,0.012088729406031548],[-0.0472442804462295,0.9506445793237388,-0.30666408620428637],[-0.027905323834679335,0.30563097363952485,0.9517410366553699]]
+ Translation vector: [8.54368341729418,-25.103936474116345,235.2482995987301]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9985866615699432,0.046797189310246984,0.02519330084083336],[-0.038582201677607765,0.9643103695808818,-0.2619483247369448],[-0.03655260658700321,0.2606060900889394,0.9647530112729641]]
+ Translation vector: [-27.131229515627933,-23.325002888782016,236.46230885617868]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9984935006632741,0.053521881081928104,0.012088729406031548],[-0.0472442804462295,0.9506445793237388,-0.30666408620428637],[-0.027905323834679335,0.30563097363952485,0.9517410366553699]]
+ Translation vector: [8.54368341729418,-25.103936474116345,235.2482995987301]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9984267743664397,0.03471655719125883,-0.044031089982109035],[-0.04764159152875231,0.9393368095739184,-0.3396713660821291],[0.029567803179033174,0.34123469758551567,0.9395129728635404]]
+ Translation vector: [-26.356608024836564,-23.042013156120007,234.9566224625921]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9984261601538778,0.05464248206583799,0.012625445499781042],[-0.04630738464100587,0.9302373793614073,-0.3640247850992171],[-0.03163587912629109,0.36286721702642943,0.931303685142178]]
+ Translation vector: [8.947205382716167,-24.69516033805902,232.23330103676875]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9982605077675114,0.03696204260713696,-0.04593218956307891],[-0.050127894425280387,0.9422144008295256,-0.3312389123728463],[0.03103470367569773,0.3329652088068158,0.942428255567497]]
+ Translation vector: [-25.218469326951194,-23.111878001424447,234.79449180782908]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9992972424062373,0.031422075659659,-0.02043708591087785],[-0.036329921357669735,0.9461458607413243,-0.3216957367081573],[0.009228116461958456,0.32221214031022666,0.9466225110904913]]
+ Translation vector: [-24.518652986349505,-23.370270877769606,235.53158110411093]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9980437589231947,0.05782028713852279,0.02377960617164951],[-0.045425523033248434,0.9319942276232988,-0.3596154634244844],[-0.042955525041789344,0.35783176783520726,0.9327975390170766]]
+ Translation vector: [11.124555644091139,-24.714734220139636,232.2919052211604]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9989602241178756,0.04497166520589726,-0.0074846482196721294],[-0.044897185820037544,0.9419086935863403,-0.3328547065190973],[-0.007919175197239328,0.3328446518649234,0.9429484208529716]]
+ Translation vector: [-23.593390889521576,-23.433514362220706,235.06735779059036]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9984344501380114,0.05195385327550139,0.020723076688428214],[-0.042423063007536975,0.9448299289880784,-0.3248025384959933],[-0.03645452650447335,0.3234149075386141,0.9455547922141393]]
+ Translation vector: [-22.66533785387441,-23.460208926430937,235.33695804404462]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9987681608276312,0.04459245658489894,0.021764046790867256],[-0.033216140888890126,0.9266832915630185,-0.3743724951467174],[-0.0368625677543027,0.3731884107976204,0.9270229561045973]]
+ Translation vector: [-20.244946241473734,-22.66226104887128,234.2498044007801]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9973575450996034,0.05167003540699257,0.05106989988175486],[-0.03164011121241365,0.9417273633243457,-0.3348857663870499],[-0.06539748156740002,0.33238498854072185,0.9408737369049184]]
+ Translation vector: [-19.167007793077346,-22.1805849449756,236.59559340995278]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9972113398741993,0.05272776504463706,0.05281407406839286],[-0.029701063883439467,0.9296262010738752,-0.3673050136890958],[-0.06846451950095017,0.3647120906555643,0.9285998602730626]]
+ Translation vector: [-16.202723917618343,-20.013978889185974,233.46266721357247]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9908551936937002,0.05624371299892344,0.12264839941195481],[-0.017000080906087688,0.9537755535088553,-0.30003864880722125],[-0.1338543326882105,0.29520982076646995,0.9460096084837735]]
+ Translation vector: [-13.046690310151405,-17.94486733129578,234.14948232549585]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9919163919118346,0.06732183929901196,0.10756226759419771],[-0.030519657186669026,0.9493485701780391,-0.3127392569315869],[-0.12316826694329994,0.3069284318115722,0.9437290478542415]]
+ Translation vector: [-9.569993402498856,-16.588258224316686,235.4986056909731]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9873526869845339,0.06792556139384567,0.1432507927159629],[-0.01919342880743457,0.9481346565371161,-0.31728896193195677],[-0.15737307201371778,0.3105266352224486,0.9374470251818976]]
+ Translation vector: [-8.828630711738024,-16.771925039728096,234.2619054111732]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9880245650269283,0.07419542266560988,0.13528672573028283],[-0.0290367596424282,0.9505392729834901,-0.30924417068958016],[-0.15153984787116928,0.30161254909484425,0.9413105463850351]]
+ Translation vector: [-7.879747702197528,-16.965975735453753,235.5851402924409]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9862001060811242,0.06986205596979124,0.15009544930227994],[-0.01858094009879883,0.9475834266987807,-0.31896770700314064],[-0.16451169998095694,0.3117770719303623,0.9358049786082063]]
+ Translation vector: [-7.370187598456491,-17.131872795729503,234.17290670849007]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9802438124938501,0.07382779173113108,0.18349802515456734],[-0.022571601213481632,0.9634207112622359,-0.2670413000448185],[-0.19650086739294825,0.2576237378019967,0.9460536025166579]]
+ Translation vector: [-6.86841416109167,-17.063735184083814,235.7321839298679]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9830189505606941,0.08136081849158683,0.1644814884810165],[-0.02772985251915723,0.951905689652482,-0.305133762940941],[-0.18139679742988157,0.29539122400912937,0.9379974555725462]]
+ Translation vector: [-5.815118409064811,-16.590610621800217,235.54609829929538]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9781230682936458,0.07555103151349031,0.19382286993301748],[-0.016987358271810298,0.9576159314678547,-0.2875467917711793],[-0.20733232485738678,0.27796361171239736,0.9379496455743402]]
+ Translation vector: [-4.681976158205116,-16.896618934833405,235.66131708355258]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9781230682936458,0.07555103151349031,0.19382286993301748],[-0.016987358271810298,0.9576159314678547,-0.2875467917711793],[-0.20733232485738678,0.27796361171239736,0.9379496455743402]]
+ Translation vector: [-4.681976158205116,-16.896618934833405,235.66131708355258]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9774012778251306,0.07638264844246793,0.19711020552654276],[-0.01646418230200611,0.9571112947458112,-0.2892523123003916],[-0.21075026170073408,0.27947032129890165,0.936739380354088]]
+ Translation vector: [-3.9488780342568157,-17.261221336695026,235.6262735158299]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.982185148791363,0.07822456045053773,0.17086032785877486],[-0.027413402003521752,0.9591568465676419,-0.281543334272027],[-0.18590545684374404,0.2718438188091411,0.9442140113824733]]
+ Translation vector: [-2.8241834905377226,-17.084636377262818,236.98257672604544]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9734079661377345,0.08143311583864189,0.2141158076938962],[-0.015098070927245875,0.9554570917948947,-0.29474360721331716],[-0.22858035723542625,0.2836730395784074,0.9312790274147016]]
+ Translation vector: [0.45932447866085657,-18.35841516901609,235.52181365156721]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9675806244810032,0.10441357011814098,0.22996856633926302],[-0.034183935437945366,0.9563043787717936,-0.2903676870794482],[-0.25023827382502134,0.2730929173689388,0.9288708547456939]]
+ Translation vector: [1.87345242921871,-19.057827721713892,236.5429344487631]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9575371567034363,0.10727809014350834,0.2676079313239054],[-0.022533484371971824,0.9532029939909051,-0.30149012310328294],[-0.2874279659573106,0.28265785611218364,0.9151446337949577]]
+ Translation vector: [4.761875962556865,-19.583481959535856,235.01473280890593]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9507031490285173,0.11248553317689025,0.28898188049282925],[-0.022059123039662534,0.9540621516738615,-0.2987955920594591],[-0.30931685618146026,0.2776912234287436,0.9095112241817941]]
+ Translation vector: [5.7217539603692416,-18.82885317911713,234.80413311358615]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9493129385473863,0.1133108155954284,0.29319891503146],[-0.022768142528148502,0.955103859522856,-0.29539503924467386],[-0.31350686817411894,0.2737467380511471,0.90927232830105]]
+ Translation vector: [6.4510186819492334,-18.09314993457577,234.75172239982638]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9449199777372363,0.11177343063064052,0.30762466721333953],[-0.014758379435561445,0.9534762660073931,-0.3011066262921404],[-0.3269685396326326,0.2799816250500309,0.9026083667487506]]
+ Translation vector: [7.896645826578812,-17.590554601657736,236.2585411308335]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9397888979336174,0.12100374834392343,0.3196168334231432],[-0.019372246941393,0.9525785997606582,-0.30367536503059545],[-0.34120601309056453,0.2791990404079931,0.8975669069579701]]
+ Translation vector: [9.232567094444367,-16.48501904390642,234.63073614960504]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9397888979336174,0.12100374834392343,0.3196168334231432],[-0.019372246941393,0.9525785997606582,-0.30367536503059545],[-0.34120601309056453,0.2791990404079931,0.8975669069579701]]
+ Translation vector: [9.232567094444367,-16.48501904390642,234.63073614960504]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9507692189634316,0.11906525725681998,0.2861142373004763],[-0.025894800753703824,0.9505420214982774,-0.3095146598464991],[-0.3088160481024131,0.2868681402322944,0.9068292664851925]]
+ Translation vector: [10.559518575807164,-16.179385013613327,236.31796594835671]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9479041967416745,0.11486204889083558,0.2971268138760289],[-0.023784489280270295,0.9556471697007647,-0.2935520143221549],[-0.3176663845439075,0.27119217681842744,0.908593897934212]]
+ Translation vector: [14.036873256877415,-14.691474884715525,237.7656878379382]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9286073667389516,0.1269278408549439,0.3486799128915406],[-0.022008686905958127,0.956862285152124,-0.28970706749082037],[-0.37041055079307045,0.2613501300350877,0.8913428820559555]]
+ Translation vector: [18.51489308587794,-11.247340946838268,234.84171487436635]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.905224800865293,0.1349889016122582,0.4029218985608832],[-0.01741369528389166,0.9591887979080923,-0.28222971704657285],[-0.4245760510379152,0.24846498024700556,0.8706321441779558]]
+ Translation vector: [19.523886092981517,-10.474093414734714,232.81021627734694]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9098970255623154,0.1375299889287189,0.39137310206261944],[-0.024598438298093755,0.9596720030488576,-0.28004385977465823],[-0.4141042377302434,0.24518390793333078,0.8765857240363855]]
+ Translation vector: [21.516376673696847,-9.034707894708365,234.5628901028716]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.9066110128926308,0.13853244683836036,0.398579016601194],[-0.026442162230140086,0.9613680729705839,-0.2739931392013692],[-0.4211380811068894,0.23786590643848646,0.8752499798319359]]
+ Translation vector: [22.981467701797936,-7.940980001420534,234.60111002114206]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8916505610383666,0.13874414030082519,0.4309400660557697],[-0.026107603117435978,0.9660561163551589,-0.2570096751335447],[-0.45197087302107053,0.2179120088131278,0.8650067550924668]]
+ Translation vector: [24.33457272204775,-7.978409456861769,235.42895980278584]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8981949794263743,0.13223414370819217,0.4192372957777209],[-0.012869059683467202,0.9611856843202422,-0.27560200935532203],[-0.4394088827460346,0.24214915134187198,0.8650338850405184]]
+ Translation vector: [24.498750966355047,-8.488779545663963,234.65829406434847]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8835322932294059,0.13927844814980853,0.4471825138595741],[-0.016938607392461093,0.9636400732371039,-0.2666662573915061],[-0.46806385290939856,0.2280336008849793,0.8537663067063719]]
+ Translation vector: [24.5293607708557,-8.216840134893486,233.95722335261334]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8695970034830613,0.1391956838256171,0.4737358052096121],[-0.01507009407536883,0.9664764645650467,-0.2563125742260956],[-0.49353211019936716,0.21574940335066303,0.8425427295728051]]
+ Translation vector: [25.13292485425252,-8.975804436609941,234.58291886459133]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8810381960463723,0.14180957818221793,0.45128897686863073],[-0.015191323162690796,0.9619980790101008,-0.2726333062585028],[-0.4728011429849983,0.23334467964077799,0.8497113272608657]]
+ Translation vector: [25.392587212691037,-9.245456945397223,236.8310852180831]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8774896000165496,0.12715831158062735,0.4624313631867542],[-0.011592458342919925,0.9695527437326638,-0.2446080375417601],[-0.47945554201861434,0.2092802927091501,0.8522465267228778]]
+ Translation vector: [25.512743908189503,-8.936999146680783,236.28992821574369]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8768477409694364,0.1410955658703812,0.4595977376451204],[-0.018906830512181918,0.9653459789952179,-0.2602876727733143],[-0.48039626447005146,0.219543121344034,0.8491291108858176]]
+ Translation vector: [26.083173274758902,-9.362344217589893,236.4242429280392]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8525098760514225,0.13739727382915032,0.5043301501785371],[-0.012123129649423522,0.9697729880971531,-0.24370757330173828],[-0.5225705129093026,0.20164905331153024,0.8284067348448297]]
+ Translation vector: [32.2010869138449,-8.481344200959139,239.02060911626793]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8456485567758109,0.14205597612862278,0.5144886957641851],[-0.006405138869709487,0.9665626352136856,-0.25635063176211526],[-0.5337016887916393,0.2134871702349348,0.8182821857562538]]
+ Translation vector: [35.62798156910178,-9.109558798258497,239.53309570854097]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8343518937974996,0.14667324278422889,0.5313604023331852],[-0.000035964449393529066,0.9639647391860929,-0.2660300364854428],[-0.5512321797782529,0.2219435546643477,0.804291080716347]]
+ Translation vector: [39.34723955016945,-11.713734628926991,239.49044861013186]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8295839717754683,0.13106290073678714,0.5427825990428379],[0.004445206270590932,0.9704823101137006,-0.24113134573834838],[-0.5583642842396448,0.20245148013001554,0.8045139677337584]]
+ Translation vector: [39.400723857182086,-11.754605820603224,238.73183092128207]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8079536809234948,0.1455401498651352,0.5709894169416886],[0.009100060979382417,0.9658195659026468,-0.2590555056542794],[-0.5891757279219393,0.21450088786962368,0.7790130491402543]]
+ Translation vector: [39.6204403174644,-13.179046362602032,237.91737582913925]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.7933684877145218,0.1106315251495924,0.5986043003058428],[0.007775332779961506,0.9814251142059497,-0.19168800016171947],[-0.6086920296026007,0.15673356643971834,0.7777715617386335]]
+ Translation vector: [71.28527478706542,-13.481233463440287,228.20144442193296]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.8171292911000944,0.13270678354215015,0.5609711500854158],[0.012496677767835248,0.968833772569709,-0.24739635036336374],[-0.5763189695568106,0.20916508009283538,0.7900040598621842]]
+ Translation vector: [39.72757414417114,-13.166606960796027,239.62029098476552]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.7956235342147759,0.1463848733855946,0.5878389751007267],[0.014527932213880726,0.9654756503375292,-0.2600878847445876],[-0.6056171488565844,0.21547212684987457,0.7660284796021708]]
+ Translation vector: [39.95325144462822,-13.479419108680949,238.81859308001248]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.7967504627845411,0.13275753720605862,0.5895457033747268],[0.014425033308564619,0.9711147488176108,-0.2381765375576597],[-0.6041362581956707,0.19827148293158658,0.7718210936411645]]
+ Translation vector: [41.4611558791121,-13.562814182749822,239.97397984657]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.7733513985127082,0.1636202680665459,0.6124998141193759],[-0.002306616715754006,0.966841929556449,-0.2553651557493487],[-0.6339734173747075,0.1960741980205304,0.7480859676085636]]
+ Translation vector: [47.380757059092154,-16.528623511916365,242.44788645173622]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.7558186755956453,0.1776408229827621,0.6302236647658128],[0.006669937594414247,0.9603566719161883,-0.2786944108491397],[-0.6547470057612568,0.21484599301841642,0.7246706546636198]]
+ Translation vector: [49.40371930503217,-17.899217325047694,242.52348707847065]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.7207508584274827,0.1838592811443148,0.6683666395124331],[-0.0009022958109559925,0.9644318472760972,-0.2643300925393933],[-0.6931936136017963,0.18991307668696886,0.6952809772782318]]
+ Translation vector: [52.875356799737496,-17.256595172707833,240.61241920242588]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.7379981967825331,0.18288325539509973,0.6495478245994057],[-0.002710481561335154,0.9633700710121795,-0.26816181601356637],[-0.6747972397953591,0.19614234926215932,0.7114610769328747]]
+ Translation vector: [54.46728764459027,-17.299764329180558,243.71817273125387]
+ =====================
+ After transpose (rotMatrix): Array(16)
+ After X×π/2 correction: Array(16)
+ ARToolKit transform: Array(16)
+ After ARToolKit transform: Array(16)
+ Final position: Vector3
+ Final quaternion: Quaternion
+ ========================
+
+ === POSIT RAW DATA ===
+ Rotation matrix (3x3): [[0.7153045042934036,0.16877715771436394,0.6781251633521861],[0.0091755242858755,0.9680438680057719,-0.2506130071853873],[-0.6987526571624952,0.18548676677942397,0.6908975202286286]]
+ Translation vector: [56.71243111456151,-16.371325193334343,241.23881344546618]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.5782933970225618,0.19427793292182519,0.792359029569127],[-0.0017349552808220868,0.9715225711289046,-0.23694067552291664],[-0.8158270263298951,0.13564652065830998,0.5621621514678975]]
+aruco.js:97 Translation vector: [80.90520980743692,-16.60808690272146,242.90856963684834]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.5524262027679641,0.1908364644180779,0.8114226607285353],[0.02073333629513713,0.9699933486764615,-0.2422458096428031],[-0.8333039177043635,0.15064643165980446,0.5318930657253643]]
+aruco.js:97 Translation vector: [86.77600680559932,-20.74707304414795,245.5676590966608]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.44762799500942635,0.2047932769140267,0.870453268024571],[0.036575633560895916,0.9684142535004074,-0.24664966378827166],[-0.8934715446579481,0.1422446742344442,0.42599888678079517]]
+aruco.js:97 Translation vector: [103.07992608586216,-25.558642568644895,240.04634266535282]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.4498535412305652,0.19984085672048837,0.8704570198622912],[0.03642823822358785,0.969727373346422,-0.24145766677116387],[-0.8923591064712935,0.14032980213721574,0.42895544259268253]]
+aruco.js:97 Translation vector: [104.07849651260106,-25.59120368462557,240.32686157711913]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.4679817903784357,0.20743170387982837,0.8590489695586074],[0.039511027032583496,0.9661797629083847,-0.25482453667009425],[-0.8828544175666929,0.1531951499617692,0.44395869561386764]]
+aruco.js:97 Translation vector: [105.80301552112178,-26.078688116660047,244.27060749556432]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.46059630391062695,0.21734041032266171,0.8605894438491831],[0.04329749973339296,0.9629026743722635,-0.2663527101487416],[-0.8865530843331978,0.15994244504670974,0.4340991164835216]]
+aruco.js:97 Translation vector: [104.45273966002912,-25.440743501774612,241.33243480421845]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.4330231926776627,0.2116867502967523,0.8761732901384542],[0.04532175568853729,0.9656897463800532,-0.25571322257117796],[-0.9002426634327835,0.15043946784414217,0.4085720419341232]]
+aruco.js:97 Translation vector: [103.0674012741677,-25.330114619397307,238.57565236794005]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.43405335000764034,0.21422105328178265,0.8750468728462428],[0.04004272186708764,0.9657692513331599,-0.25629345213029375],[-0.8999968165347144,0.1462842900322237,0.41061738482089183]]
+aruco.js:97 Translation vector: [103.01385868908119,-26.250728347527055,239.5797014512708]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.9969191816933585,-0.04233500094919843,0.06602948482667494],[0.06044627628190381,0.9511352688909611,-0.30280017826178907],[-0.04998392597122081,0.30585854241193083,0.9507639871062393]]
+aruco.js:97 Translation vector: [-8.68383663806702,-35.736683534208,237.38885675130646]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+aruco.js:95 === POSIT RAW DATA ===
+aruco.js:96 Rotation matrix (3x3): [[0.9026637096813547,-0.03257269281258548,-0.4291121612203874],[-0.0029576376825124736,0.9966383346877632,-0.0818735745533379],[0.43033647254634805,0.07517346282923873,0.8995329181762205]]
+aruco.js:97 Translation vector: [-43.6593587297469,-38.5770453079764,237.53033225883738]
+aruco.js:98 =====================
+aruco.js:112 After transpose (rotMatrix): Array(16)
+aruco.js:120 After X×π/2 correction: Array(16)
+aruco.js:128 ARToolKit transform: Array(16)
+aruco.js:131 After ARToolKit transform: Array(16)
+aruco.js:144 Final position: Vector3
+aruco.js:145 Final quaternion: Quaternion
+aruco.js:146 ========================
+
+threex-artoolkitsource.js:388 obsolete function arToolkitSource.onResize. Use arToolkitSource.onResizeElement
+ARjs.Source.onResize @ threex-artoolkitsource.js:388
+threex-artoolkitsource.js:378 obsolete function arToolkitSource.copySizeTo. Use arToolkitSource.copyElementSizeTo
+ARjs.Source.copySizeTo @ threex-artoolkitsource.js:378
+threex-artoolkitsource.js:378 obsolete function arToolkitSource.copySizeTo. Use arToolkitSource.copyElementSizeTo
+ARjs.Source.copySizeTo @ threex-artoolkitsource.js:378
