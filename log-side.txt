@@ -1,0 +1,580 @@
+asm.js type error: Asm.js optimizer disabled by 'asmjs' runtime option artoolkit.min.js
+asm.js is deprecated and should no longer be used. Please recompile using WebAssembly to get the best performance. artoolkit.min.js:3:1
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.8, Distance=276.06mm, Angle=175° 2 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.5x23.8, Tip=1.9x4.7x4.7, Distance=84.81mm, Angle=35° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.7x35.7, Tip=1.9x4.7x4.7, Distance=68.74mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.72mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.5x23.9, Tip=1.8x4.7x4.7, Distance=83.62mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.2x37.7x35.8, Tip=1.8x4.7x4.7, Distance=66.64mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.7, Distance=278.41mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.5x26.4x23.7, Tip=1.9x4.7x4.7, Distance=83.44mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x37.8x35.4, Tip=1.9x4.7x4.7, Distance=68.35mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.53mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.4x24.0, Tip=1.9x4.7x4.7, Distance=84.17mm, Angle=35° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x37.9x35.3, Tip=1.9x4.7x4.7, Distance=71.25mm, Angle=12° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=275.48mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.4x24.1, Tip=2.0x4.7x4.7, Distance=83.17mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.0x35.2, Tip=2.0x4.7x4.7, Distance=69.91mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=275.84mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.1, Tip=1.9x4.8x4.8, Distance=82.54mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x38.0x35.2, Tip=1.9x4.8x4.8, Distance=69.08mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.8, Distance=276.21mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.0, Tip=2.0x4.7x4.7, Distance=85.16mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.3x34.9, Tip=2.0x4.7x4.7, Distance=72.80mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=275.46mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.5x24.0, Tip=1.9x4.7x4.7, Distance=85.51mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.8x37.8x35.1, Tip=1.9x4.7x4.7, Distance=71.32mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.46mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.5x23.9, Tip=1.9x4.7x4.7, Distance=85.91mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.6x37.5x35.2, Tip=1.9x4.7x4.7, Distance=71.01mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.46mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.3x24.0, Tip=2.0x4.7x4.8, Distance=85.52mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x37.8x35.1, Tip=2.0x4.7x4.8, Distance=73.07mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.8, Distance=275.48mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.4x24.1, Tip=2.0x4.7x4.7, Distance=84.47mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.0x35.1, Tip=2.0x4.7x4.7, Distance=72.77mm, Angle=15° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=276.41mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.0, Tip=1.9x4.7x4.7, Distance=85.35mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.7x37.7x35.2, Tip=1.9x4.7x4.7, Distance=71.02mm, Angle=16° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.60mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x24.0, Tip=1.9x4.7x4.7, Distance=86.44mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.6x37.5x35.2, Tip=1.9x4.7x4.7, Distance=70.94mm, Angle=16° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.39mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.1, Tip=2.0x4.7x4.7, Distance=86.20mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.8x37.8x35.1, Tip=2.0x4.7x4.7, Distance=72.89mm, Angle=16° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=276.35mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.1, Tip=2.0x4.8x4.8, Distance=86.07mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.0x35.1, Tip=2.0x4.8x4.8, Distance=73.45mm, Angle=16° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.8, Distance=276.49mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.1, Tip=2.0x4.7x4.7, Distance=86.30mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.1x35.1, Tip=2.0x4.7x4.7, Distance=73.92mm, Angle=17° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=276.50mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=31.0x26.6x24.1, Tip=1.9x4.7x4.7, Distance=87.94mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.8x37.9x35.0, Tip=1.9x4.7x4.7, Distance=71.90mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.96mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.0, Tip=1.9x4.7x4.7, Distance=88.61mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x38.0x35.1, Tip=1.9x4.7x4.7, Distance=70.39mm, Angle=19° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.86mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x24.0, Tip=1.9x4.7x4.7, Distance=89.71mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.1x35.1, Tip=1.9x4.7x4.7, Distance=72.46mm, Angle=19° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.40mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x24.0, Tip=1.9x4.7x4.7, Distance=89.71mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.8x38.0x35.0, Tip=1.9x4.7x4.7, Distance=71.25mm, Angle=19° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.40mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.6x24.0, Tip=1.9x4.8x4.8, Distance=90.29mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.7x38.0x34.9, Tip=1.9x4.8x4.8, Distance=72.69mm, Angle=19° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.8, Distance=277.88mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.7x26.4x24.0, Tip=1.8x4.7x4.7, Distance=87.93mm, Angle=43° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x38.1x35.0, Tip=1.8x4.7x4.7, Distance=71.90mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.7, Distance=279.82mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.0, Tip=1.9x4.7x4.7, Distance=89.76mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.2x26.8x24.3, Tip=1.9x4.7x4.7, Distance=69.76mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.33mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.7x23.9, Tip=1.9x4.7x4.7, Distance=92.19mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x26.7x24.7, Tip=1.9x4.7x4.7, Distance=68.97mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.22mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.7, Tip=1.9x4.7x4.7, Distance=91.46mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.2x26.7x24.4, Tip=1.9x4.7x4.7, Distance=69.55mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=279.25mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.7x23.9, Tip=1.8x4.7x4.7, Distance=91.28mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x26.7x24.7, Tip=1.8x4.7x4.7, Distance=69.09mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.7, Distance=278.34mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.7x23.9, Tip=1.9x4.8x4.7, Distance=91.13mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.5x26.6x24.9, Tip=1.9x4.8x4.7, Distance=68.66mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.7, Distance=278.21mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.7, Tip=1.8x4.7x4.7, Distance=90.87mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.3x26.7x24.5, Tip=1.8x4.7x4.7, Distance=69.22mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.7, Distance=279.53mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.7x23.9, Tip=1.8x4.7x4.7, Distance=90.88mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x26.6x24.8, Tip=1.8x4.7x4.7, Distance=68.80mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.7, Distance=278.60mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.1, Tip=1.8x4.7x4.6, Distance=89.03mm, Angle=43° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x27.0x24.4, Tip=1.8x4.7x4.6, Distance=69.86mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.6, Distance=280.31mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.3x24.2, Tip=1.8x4.7x4.6, Distance=88.51mm, Angle=43° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x27.2x24.2, Tip=1.8x4.7x4.6, Distance=71.06mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.6, Distance=280.31mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.1x26.9x23.9, Tip=1.9x4.7x4.7, Distance=90.48mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.5x26.9x24.6, Tip=1.9x4.7x4.7, Distance=69.49mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=279.21mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.2x26.9x23.9, Tip=1.9x4.7x4.7, Distance=90.43mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.7x24.9, Tip=1.9x4.7x4.7, Distance=68.31mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=279.21mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.1x26.7x24.0, Tip=1.9x4.7x4.7, Distance=90.58mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.3x26.5x24.7, Tip=1.9x4.7x4.7, Distance=69.16mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.82mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.6x24.1, Tip=1.8x4.6x4.6, Distance=88.76mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x26.8x24.5, Tip=1.8x4.6x4.6, Distance=70.12mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.6x4.6, Distance=279.13mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.6x24.1, Tip=1.9x4.7x4.7, Distance=88.47mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.5x26.9x24.5, Tip=1.9x4.7x4.7, Distance=71.53mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.17mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.6x24.1, Tip=1.9x4.7x4.7, Distance=89.10mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x27.1x24.2, Tip=1.9x4.7x4.7, Distance=72.07mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.96mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.6x26.4x23.8, Tip=1.9x4.7x4.7, Distance=88.71mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.5x26.8x24.6, Tip=1.9x4.7x4.7, Distance=70.24mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.29mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.8x26.8x23.6, Tip=1.8x4.7x4.6, Distance=88.22mm, Angle=43° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.1x24.5, Tip=1.8x4.7x4.6, Distance=69.25mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.6, Distance=280.26mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.6x26.5x23.6, Tip=1.9x4.7x4.6, Distance=88.68mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.8x24.8, Tip=1.9x4.7x4.6, Distance=69.38mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.6, Distance=278.33mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.5x26.4x23.6, Tip=1.9x4.7x4.7, Distance=88.51mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.1x24.5, Tip=1.9x4.7x4.7, Distance=71.01mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.61mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.4x26.4x23.5, Tip=1.9x4.7x4.7, Distance=88.34mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.2x24.3, Tip=1.9x4.7x4.7, Distance=71.60mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.61mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.7x26.5x23.8, Tip=1.9x4.6x4.6, Distance=88.13mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.3x27.0x24.2, Tip=1.9x4.6x4.6, Distance=70.17mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.6x4.6, Distance=279.58mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.5x26.4x23.7, Tip=1.9x4.6x4.6, Distance=87.55mm, Angle=43° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x27.0x24.3, Tip=1.9x4.6x4.6, Distance=70.44mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.6x4.6, Distance=279.58mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.4x26.3x23.6, Tip=1.9x4.7x4.6, Distance=87.47mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x27.1x24.3, Tip=1.9x4.7x4.6, Distance=71.00mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.6, Distance=278.80mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.7x26.6x23.6, Tip=1.9x4.5x4.5, Distance=89.67mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.5x27.0x24.3, Tip=1.9x4.5x4.5, Distance=71.96mm, Angle=19° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.5x4.5, Distance=277.40mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.8x26.4x24.0, Tip=2.0x4.6x4.6, Distance=89.44mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.9x24.7, Tip=2.0x4.6x4.6, Distance=72.57mm, Angle=18° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.6x4.6, Distance=276.20mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.7x23.8, Tip=2.1x4.7x4.7, Distance=90.77mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.3x26.8x24.4, Tip=2.1x4.7x4.7, Distance=73.14mm, Angle=17° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.1x4.7x4.7, Distance=275.39mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.0, Tip=2.0x4.7x4.7, Distance=87.70mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x26.8x24.4, Tip=2.0x4.7x4.7, Distance=72.04mm, Angle=17° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=276.39mm, Angle=175° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.2x24.4, Tip=2.0x4.6x4.7, Distance=88.43mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.5x26.6x24.8, Tip=2.0x4.6x4.7, Distance=70.32mm, Angle=16° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.6x4.7, Distance=275.84mm, Angle=175° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.6x24.0, Tip=2.0x4.6x4.6, Distance=88.78mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.3x26.7x24.5, Tip=2.0x4.6x4.6, Distance=70.47mm, Angle=16° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.6x4.6, Distance=276.62mm, Angle=175° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.8x26.2x24.2, Tip=1.9x4.7x4.7, Distance=86.71mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.4x26.8x24.5, Tip=1.9x4.7x4.7, Distance=69.92mm, Angle=16° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.61mm, Angle=175° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.7x26.1x24.3, Tip=2.0x4.7x4.8, Distance=87.36mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.5x26.8x24.5, Tip=2.0x4.7x4.8, Distance=71.98mm, Angle=15° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.8, Distance=275.53mm, Angle=175° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.8x26.2x24.2, Tip=2.0x4.7x4.8, Distance=87.91mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.6x24.9, Tip=2.0x4.7x4.8, Distance=70.02mm, Angle=15° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.8, Distance=275.53mm, Angle=175° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.8x26.3x24.1, Tip=1.9x4.7x4.7, Distance=86.68mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.5x25.1, Tip=1.9x4.7x4.7, Distance=67.19mm, Angle=16° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.45mm, Angle=175° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.7x26.1x24.2, Tip=1.9x4.7x4.7, Distance=86.66mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.5x25.1, Tip=1.9x4.7x4.7, Distance=67.75mm, Angle=15° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.19mm, Angle=175° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.8x26.5x24.0, Tip=2.0x4.7x4.7, Distance=87.90mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.5x25.2, Tip=2.0x4.7x4.7, Distance=67.67mm, Angle=15° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=275.81mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: MAIN index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.4x24.0, Tip=2.0x4.7x4.7, Distance=87.68mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.8x24.7, Tip=2.0x4.7x4.7, Distance=69.48mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=275.81mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: MAIN index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.2x24.2, Tip=1.9x4.7x4.7, Distance=85.90mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.5x26.8x24.7, Tip=1.9x4.7x4.7, Distance=67.63mm, Angle=15° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.72mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: MAIN index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.3x24.1, Tip=1.9x4.7x4.7, Distance=86.15mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.3x26.5x24.7, Tip=1.9x4.7x4.7, Distance=68.13mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.72mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: MAIN index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.2x24.1, Tip=1.9x4.7x4.7, Distance=84.33mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x37.8x35.3, Tip=1.9x4.7x4.7, Distance=71.28mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.80mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.1x24.3, Tip=2.0x4.6x4.7, Distance=84.57mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.0x35.3, Tip=2.0x4.6x4.7, Distance=72.94mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.6x4.7, Distance=276.47mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.3x24.2, Tip=1.9x4.7x4.7, Distance=84.29mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.8x37.6x35.3, Tip=1.9x4.7x4.7, Distance=70.55mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.76mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.7, Tip=2.0x4.8x4.8, Distance=87.97mm, Angle=35° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x37.5x35.6, Tip=2.0x4.8x4.8, Distance=71.08mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.8, Distance=275.50mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.6x26.5x23.7, Tip=1.9x4.7x4.7, Distance=84.60mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.2x35.1, Tip=1.9x4.7x4.7, Distance=71.41mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.46mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.3x24.0, Tip=1.9x4.8x4.8, Distance=84.51mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.2x35.2, Tip=1.9x4.8x4.8, Distance=72.90mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.8, Distance=276.86mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.1x24.2, Tip=1.9x4.7x4.7, Distance=84.06mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.1x35.2, Tip=1.9x4.7x4.7, Distance=72.41mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.06mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.2x24.3, Tip=1.9x4.7x4.7, Distance=83.75mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.1x35.1, Tip=1.9x4.7x4.7, Distance=71.80mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.61mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.9x23.5, Tip=1.9x4.8x4.8, Distance=87.42mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.9x35.6, Tip=1.9x4.8x4.8, Distance=69.94mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.8, Distance=277.21mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.6x26.6x23.5, Tip=1.9x4.7x4.7, Distance=86.99mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.7x35.8, Tip=1.9x4.7x4.7, Distance=68.51mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.50mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.6x23.8, Tip=1.9x4.7x4.7, Distance=86.77mm, Angle=35° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x37.8x35.4, Tip=1.9x4.7x4.7, Distance=69.22mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.35mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x23.9, Tip=2.0x4.8x4.8, Distance=86.94mm, Angle=35° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.8x37.8x35.2, Tip=2.0x4.8x4.8, Distance=71.89mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.8, Distance=275.53mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.0, Tip=2.0x4.8x4.8, Distance=85.53mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.7x37.8x35.1, Tip=2.0x4.8x4.8, Distance=71.27mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.8, Distance=277.20mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.6x26.4x23.8, Tip=2.0x4.8x4.8, Distance=84.56mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.7x38.1x34.8, Tip=2.0x4.8x4.8, Distance=73.36mm, Angle=13° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.8, Distance=276.60mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.8x23.4, Tip=2.0x4.8x4.8, Distance=87.10mm, Angle=35° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x37.8x35.4, Tip=2.0x4.8x4.8, Distance=70.85mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.8, Distance=276.60mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.6x26.6x23.6, Tip=1.9x4.7x4.8, Distance=88.15mm, Angle=35° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x37.7x35.7, Tip=1.9x4.7x4.8, Distance=69.32mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.8, Distance=277.03mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.4x24.0, Tip=1.9x4.7x4.7, Distance=85.37mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x37.9x35.4, Tip=1.9x4.7x4.7, Distance=69.69mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.29mm, Angle=175° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.7x23.8, Tip=1.9x4.8x4.7, Distance=85.97mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.0x35.2, Tip=1.9x4.8x4.7, Distance=70.62mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.7, Distance=278.14mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.4x23.9, Tip=1.9x4.8x4.7, Distance=85.72mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.8x38.3x34.6, Tip=1.9x4.8x4.7, Distance=71.56mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.7, Distance=277.67mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.5x24.0, Tip=1.9x4.7x4.7, Distance=85.93mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.7x38.1x34.8, Tip=1.9x4.7x4.7, Distance=72.24mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.25mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.3x24.2, Tip=1.9x4.7x4.7, Distance=83.32mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.8x38.1x34.9, Tip=1.9x4.7x4.7, Distance=69.98mm, Angle=15° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=279.71mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.2x24.2, Tip=1.9x4.7x4.7, Distance=86.01mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.5x34.7, Tip=1.9x4.7x4.7, Distance=72.55mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.82mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.7x26.1x24.1, Tip=2.0x4.8x4.8, Distance=87.38mm, Angle=36° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.7x34.6, Tip=2.0x4.8x4.8, Distance=73.58mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.8, Distance=277.26mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.2x24.2, Tip=2.0x4.7x4.8, Distance=86.36mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.4x34.8, Tip=2.0x4.7x4.8, Distance=73.22mm, Angle=14° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.8, Distance=277.25mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.4x24.1, Tip=2.0x4.7x4.8, Distance=86.13mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.1x35.3, Tip=2.0x4.7x4.8, Distance=70.79mm, Angle=15° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.8, Distance=277.25mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.2x24.4, Tip=1.9x4.8x4.8, Distance=83.53mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.4x35.0, Tip=1.9x4.8x4.8, Distance=69.98mm, Angle=15° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.8, Distance=278.99mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.4x24.2, Tip=1.9x4.7x4.6, Distance=84.92mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x38.2x34.9, Tip=1.9x4.7x4.6, Distance=71.16mm, Angle=16° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.6, Distance=278.51mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.1, Tip=2.0x4.8x4.8, Distance=86.86mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x37.9x35.4, Tip=2.0x4.8x4.8, Distance=71.09mm, Angle=16° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.8, Distance=276.71mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.7x23.8, Tip=1.8x4.6x4.6, Distance=86.58mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.3x38.0x35.8, Tip=1.8x4.6x4.6, Distance=68.22mm, Angle=17° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.6x4.6, Distance=278.75mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.7, Tip=1.9x4.7x4.7, Distance=87.55mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.0x35.3, Tip=1.9x4.7x4.7, Distance=70.64mm, Angle=16° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.06mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.9x23.7, Tip=1.9x4.7x4.7, Distance=88.71mm, Angle=37° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.1x35.2, Tip=1.9x4.7x4.7, Distance=72.65mm, Angle=15° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=276.78mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x27.1x23.4, Tip=1.9x4.7x4.7, Distance=88.87mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x37.9x35.5, Tip=1.9x4.7x4.7, Distance=69.67mm, Angle=16° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.29mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.7, Tip=1.9x4.8x4.8, Distance=87.75mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.8x35.7, Tip=1.9x4.8x4.8, Distance=68.76mm, Angle=17° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.8, Distance=278.42mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.7x23.8, Tip=1.9x4.7x4.7, Distance=87.44mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.7x35.8, Tip=1.9x4.7x4.7, Distance=68.36mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.62mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.7, Tip=1.9x4.7x4.7, Distance=87.93mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.7x35.8, Tip=1.9x4.7x4.7, Distance=68.15mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.62mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x24.0, Tip=1.8x4.7x4.7, Distance=86.01mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.3x35.1, Tip=1.8x4.7x4.7, Distance=69.75mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.7, Distance=279.96mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.9x23.6, Tip=1.8x4.6x4.6, Distance=88.50mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.2x38.1x35.4, Tip=1.8x4.6x4.6, Distance=71.20mm, Angle=17° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.6x4.6, Distance=278.64mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x27.1x23.4, Tip=1.9x4.7x4.7, Distance=89.42mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.2x38.0x35.5, Tip=1.9x4.7x4.7, Distance=71.34mm, Angle=17° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.69mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.9x23.7, Tip=1.9x4.7x4.6, Distance=88.62mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.2x37.9x35.7, Tip=1.9x4.7x4.6, Distance=70.04mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.6, Distance=278.37mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.9x23.6, Tip=1.9x4.7x4.7, Distance=88.72mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.0x35.3, Tip=1.9x4.7x4.7, Distance=70.91mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.97mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x27.1x23.4, Tip=1.9x4.8x4.8, Distance=90.75mm, Angle=38° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.9x35.6, Tip=1.9x4.8x4.8, Distance=70.85mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.8, Distance=277.43mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=31.0x27.0x23.7, Tip=1.9x4.7x4.6, Distance=89.29mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x38.0x35.3, Tip=1.9x4.7x4.6, Distance=69.52mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.6, Distance=278.26mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=31.0x26.7x24.0, Tip=1.8x4.6x4.6, Distance=87.62mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.5x34.9, Tip=1.8x4.6x4.6, Distance=71.32mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.6x4.6, Distance=279.04mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.8, Tip=1.9x4.6x4.6, Distance=89.10mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.0x38.3x35.0, Tip=1.9x4.6x4.6, Distance=72.72mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.6x4.6, Distance=277.99mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.4x24.2, Tip=1.9x4.6x4.6, Distance=88.20mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.0x35.4, Tip=1.9x4.6x4.6, Distance=70.24mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.6x4.6, Distance=278.62mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.5x24.1, Tip=1.9x4.7x4.7, Distance=88.65mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.8x35.7, Tip=1.9x4.7x4.7, Distance=70.07mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.81mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x24.0, Tip=1.9x4.8x4.7, Distance=87.96mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.8x35.8, Tip=1.9x4.8x4.7, Distance=68.69mm, Angle=19° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.7, Distance=278.89mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x24.0, Tip=1.9x4.7x4.7, Distance=88.90mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.7x35.8, Tip=1.9x4.7x4.7, Distance=69.74mm, Angle=19° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.50mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.8, Tip=1.9x4.7x4.7, Distance=88.99mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x37.8x35.4, Tip=1.9x4.7x4.7, Distance=70.89mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.46mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=31.0x26.5x24.1, Tip=1.8x4.7x4.6, Distance=87.68mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=41.9x38.0x35.2, Tip=1.8x4.7x4.6, Distance=71.28mm, Angle=19° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.6, Distance=279.14mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.8x26.2x24.2, Tip=2.0x4.8x4.8, Distance=88.78mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.4x34.8, Tip=2.0x4.8x4.8, Distance=74.78mm, Angle=18° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.8, Distance=276.76mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.4x24.1, Tip=1.9x4.7x4.7, Distance=88.20mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.0x35.4, Tip=1.9x4.7x4.7, Distance=71.10mm, Angle=19° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.39mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=31.1x26.5x24.4, Tip=1.9x4.8x4.8, Distance=89.32mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.9x35.7, Tip=1.9x4.8x4.8, Distance=70.79mm, Angle=19° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.8, Distance=277.58mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=31.0x26.7x24.0, Tip=1.9x4.8x4.7, Distance=89.33mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.8x35.8, Tip=1.9x4.8x4.7, Distance=69.09mm, Angle=20° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.7, Distance=278.98mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=31.0x26.6x24.0, Tip=1.9x4.7x4.7, Distance=90.18mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.2x38.3x35.1, Tip=1.9x4.7x4.7, Distance=73.10mm, Angle=19° index-1.html:2047:25
+  → COLLISION DETECTED! [СПЕРЕДУ] index-1.html:2076:29
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=277.41mm, Angle=174° 4 index-1.html:2047:25
+INTERSECTION: marker 2, contentState: ALTERNATIVE index-1.html:1934:29
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.8, Tip=1.8x4.7x4.6, Distance=89.89mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x38.0x35.5, Tip=1.8x4.7x4.6, Distance=70.23mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.6, Distance=278.99mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.7x23.9, Tip=1.8x4.7x4.7, Distance=88.67mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.8x35.7, Tip=1.8x4.7x4.7, Distance=68.60mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.7, Distance=279.86mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x24.0, Tip=2.0x4.7x4.7, Distance=90.36mm, Angle=40° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.1x37.7x35.8, Tip=2.0x4.7x4.7, Distance=70.74mm, Angle=19° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=277.11mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.1x27.0x23.8, Tip=1.9x4.7x4.7, Distance=90.14mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=42.2x38.3x35.2, Tip=1.9x4.7x4.7, Distance=71.65mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=279.33mm, Angle=174° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x27.0x23.7, Tip=2.0x4.7x4.7, Distance=92.04mm, Angle=39° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.8x24.8, Tip=2.0x4.7x4.7, Distance=70.50mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.7x4.7, Distance=276.89mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.2x26.7x24.2, Tip=1.9x4.7x4.7, Distance=90.51mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.7x24.9, Tip=1.9x4.7x4.7, Distance=68.01mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=279.18mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.2x26.5x24.5, Tip=1.9x4.8x4.7, Distance=88.52mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.2x24.4, Tip=1.9x4.8x4.7, Distance=70.23mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.7, Distance=279.50mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.1x26.3x24.6, Tip=1.8x4.6x4.6, Distance=87.78mm, Angle=43° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.4x24.1, Tip=1.8x4.6x4.6, Distance=71.44mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.6x4.6, Distance=279.73mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.2x24.6, Tip=1.8x4.6x4.6, Distance=88.88mm, Angle=43° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.2x24.3, Tip=1.8x4.6x4.6, Distance=69.38mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.6x4.6, Distance=279.73mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.4x24.3, Tip=1.9x4.7x4.7, Distance=89.89mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.9x24.7, Tip=1.9x4.7x4.7, Distance=69.08mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.74mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.7x24.0, Tip=1.9x4.7x4.6, Distance=90.48mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.5x26.9x24.5, Tip=1.9x4.7x4.6, Distance=70.00mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.6, Distance=279.32mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.8x23.8, Tip=1.8x4.6x4.6, Distance=90.38mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.3x24.2, Tip=1.8x4.6x4.6, Distance=70.60mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.6x4.6, Distance=280.36mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.2x26.9x24.1, Tip=1.9x4.7x4.7, Distance=91.84mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.9x24.6, Tip=1.9x4.7x4.7, Distance=70.00mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.75mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.6x24.2, Tip=1.9x4.7x4.7, Distance=90.14mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.3x24.3, Tip=1.9x4.7x4.7, Distance=71.48mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=279.09mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.0x26.5x24.2, Tip=1.9x4.7x4.7, Distance=89.31mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.4x24.1, Tip=1.9x4.7x4.7, Distance=72.32mm, Angle=20° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=279.09mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.9x23.7, Tip=1.9x4.7x4.7, Distance=91.34mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.0x24.6, Tip=1.9x4.7x4.7, Distance=70.04mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=279.05mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.7x26.6x23.6, Tip=1.9x4.6x4.6, Distance=89.95mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.7x27.3x24.5, Tip=1.9x4.6x4.6, Distance=71.04mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.6x4.6, Distance=278.86mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.7x26.6x23.7, Tip=1.9x4.7x4.6, Distance=89.84mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.7x26.9x24.8, Tip=1.9x4.7x4.6, Distance=68.82mm, Angle=22° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.6, Distance=279.72mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.7x26.5x23.8, Tip=1.8x4.7x4.7, Distance=89.83mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x26.8x24.9, Tip=1.8x4.7x4.7, Distance=67.90mm, Angle=22° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.7, Distance=279.84mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.8x26.6x23.9, Tip=1.9x4.7x4.7, Distance=91.06mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.1x24.5, Tip=1.9x4.7x4.7, Distance=70.78mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.18mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x23.9, Tip=1.9x4.8x4.7, Distance=90.37mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.5x24.0, Tip=1.9x4.8x4.7, Distance=70.45mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.8x4.7, Distance=279.48mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.9x26.6x23.9, Tip=1.9x4.7x4.7, Distance=91.02mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.8x27.5x24.3, Tip=1.9x4.7x4.7, Distance=71.76mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.41mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=30.8x26.6x23.9, Tip=1.8x4.7x4.7, Distance=89.43mm, Angle=43° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.6x27.1x24.6, Tip=1.8x4.7x4.7, Distance=67.78mm, Angle=23° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.8x4.7x4.7, Distance=281.19mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.1x26.6x24.2, Tip=2.0x4.8x4.7, Distance=92.11mm, Angle=41° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.7x26.9x24.8, Tip=2.0x4.8x4.7, Distance=70.33mm, Angle=21° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=2.0x4.8x4.7, Distance=277.29mm, Angle=173° 4 index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.1x26.8x24.1, Tip=1.9x4.7x4.7, Distance=91.58mm, Angle=42° index-1.html:2047:25
+[СПЕРЕДУ] Collision: Object1=31.7x27.2x24.5, Tip=1.9x4.7x4.7, Distance=70.70mm, Angle=22° index-1.html:2047:25
+[ЗЗАДУ] Collision: Object1=20.0x5.0x20.0, Tip=1.9x4.7x4.7, Distance=278.65mm, Angle=173° 4 index-1.html:2047:25
+obsolete function arToolkitSource.onResize. Use arToolkitSource.onResizeElement threex-artoolkitsource.js:388:11
+obsolete function arToolkitSource.copySizeTo. Use arToolkitSource.copyElementSizeTo 2 threex-artoolkitsource.js:378:10

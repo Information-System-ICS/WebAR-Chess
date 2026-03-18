@@ -394,6 +394,14 @@
             // Track which markers have already played audio (to avoid replaying while intersecting)
             let markerAudioPlayed = new Set();
             
+            // Switch cooldown to prevent rapid toggling between content states
+            let lastSwitchTime = 0;
+            let switchCooldown = 200; // 300ms minimum between switches (optimal for fast response)
+            
+            // ArUco marker loss buffer to prevent flickering (require N consecutive frames without detection)
+            let arucoMarkerLossCount = new Map();
+            let arucoMarkerLossThreshold = 3; // Require 3 consecutive frames without detection
+            
             // Font for text geometry
             let font = null;
             let fontLoader = new THREE.FontLoader();
@@ -936,6 +944,17 @@
 
                 const currentState = markerContentState.get(markerIndex) || false;
                 if (currentState === useAlternativeContent) return; // Already in the desired state
+
+                // Check switch cooldown to prevent rapid toggling
+                var currentTime = performance.now();
+                if (currentTime - lastSwitchTime < switchCooldown) {
+                    console.log(`[COOLDOWN] Marker ${markerIndex}: switch blocked (${Math.round(currentTime - lastSwitchTime)}ms < ${switchCooldown}ms)`);
+                    return; // Ignore rapid switches
+                }
+                lastSwitchTime = currentTime;
+
+                // DEBUG: вивід інформації про перемикання контенту
+                console.log(`[SWITCH] Marker ${markerIndex}: ${currentState ? 'ALTERNATIVE' : 'MAIN'} → ${useAlternativeContent ? 'ALTERNATIVE' : 'MAIN'}`);
 
                 if (useAlternativeContent && markerAlternativeContent.has(markerIndex)) {
                     // Switch to alternative content
@@ -1897,13 +1916,19 @@
                     return;
                 }
 
+                // УВАГА: Скидаємо intersectedMarkerIndex на null на початку перевірки!
+                // Це критично для правильного скидання контенту коли контролер відходить
                 let intersectedMarkerIndex = null;
 
                 mainContainer.traverse((object) => {
-                    if (object.isMesh && !(object.userData && object.userData.isController)) {
+                    if (object.isMesh &&
+                        !(object.userData && object.userData.isController) &&
+                        object.visible) {  // Перевірка видимості - прихований об'єкт не може мати колізію
+                        
+                        // Перевіряємо колізію тільки з видимим об'єктом
+                        // (видимість вже перевірена вище, тому просто перевіряємо колізію)
                         if (detectCollisionCubes(object, controller)) {
-                            // Find which marker this object belongs to
-                            // Для складних об'єктів (групи) потрібно підніматися вгору по ієрархії
+                            // Знаходимо маркер, до якого належить об'єкт
                             let parent = object.parent;
                             while (parent) {
                                 for (let i = 0; i < markerRoots.length; i++) {
@@ -1919,8 +1944,20 @@
                     }
                 });
 
+                // ✅ ПЕРЕВІРКА: якщо маркер не детектується (не видимий), ігноруємо колізію
+                if (intersectedMarkerIndex !== null && !markerRoots[intersectedMarkerIndex].visible) {
+                    console.log(`[COLLISION IGNORED] Marker ${intersectedMarkerIndex} is not detected (markerRoot not visible)`);
+                    intersectedMarkerIndex = null;
+                }
+
                 // Update current intersected marker for audio playback
                 currentIntersectedMarker = intersectedMarkerIndex;
+
+                // Debug: вивід стану колізії
+                if (intersectedMarkerIndex !== null) {
+                    const isAltContent = markerContentState.get(intersectedMarkerIndex);
+                    console.log(`INTERSECTION: marker ${intersectedMarkerIndex}, contentState: ${isAltContent ? 'ALTERNATIVE' : 'MAIN'}`);
+                }
 
                     // Switch to alternative content for intersected marker if it has alternative content
                     if (intersectedMarkerIndex !== null && markerAlternativeContent.has(intersectedMarkerIndex)) {
@@ -1956,6 +1993,7 @@
                     // Reset all other markers to first content when controller is active but not intersecting them
                     for (let i = 0; i < markerRoots.length; i++) {
                         if (i !== intersectedMarkerIndex && markerContentState.get(i)) {
+                            console.log(`[RESET] Marker ${i}: ALTERNATIVE → MAIN (no intersection)`);
                             switchMarkerContent(i, false);
                         }
                         // Reset audio played state for markers that are no longer intersected
@@ -1968,15 +2006,27 @@
                         }
                         // Cancel audio timeout for markers that are no longer intersected
                         if (i !== intersectedMarkerIndex && markerAudioTimeouts.has(i)) {
+                            console.log(`[TIMEOUT CANCEL] Marker ${i}`);
                             clearTimeout(markerAudioTimeouts.get(i));
                             markerAudioTimeouts.delete(i);
                         }
+                    }
+                    
+                    // Debug: вивід стану таймерів
+                    if (markerAudioTimeouts.size > 0) {
+                        console.log(`[DEBUG] Active timeouts: ${Array.from(markerAudioTimeouts.keys()).join(', ')}`);
                     }
             }
 
             // Функція для пошуку перетинів між двома об'єктами сцени
             function detectCollisionCubes(object1, object2, tipFraction = 0.1) {
-                // Ensure bounding boxes are available in local space
+                // Скидаємо кеш bounding box для уникнення застарілих даних
+                // Це вирішує проблему, коли bounding box альтернативного контенту
+                // залишається після перемикання на основний контент
+                object1.geometry.boundingBox = null;
+                object2.geometry.boundingBox = null;
+                
+                // Перераховуємо bounding box з нуля
                 object1.geometry.computeBoundingBox();
                 object2.geometry.computeBoundingBox();
                 object1.updateMatrixWorld();
@@ -1999,6 +2049,35 @@
 
                 // Transform tip box to world space (will become world AABB)
                 tipBoxLocal.applyMatrix4(object2.matrixWorld);
+
+                // --- ЗМЕНШУЄМО bounding box контролера для точнішої колізії ---
+                // shrinkFactor = 0.85 зменшує box на 15% для усунення хибних колізій
+                // Якщо колізія все одно затримується, зменшіть до 0.75 або 0.50
+                const shrinkFactor = 0.45;
+                const center = new THREE.Vector3().addVectors(tipBoxLocal.min, tipBoxLocal.max).multiplyScalar(0.5);
+                const halfSize = new THREE.Vector3().subVectors(tipBoxLocal.max, center);
+                halfSize.multiplyScalar(shrinkFactor);
+                tipBoxLocal.min.copy(center).sub(halfSize);
+                tipBoxLocal.max.copy(center).add(halfSize);
+                // --------------------------------------------------------------
+
+                // --- Debug: виводимо розміри bounding box ---
+                const box1Size = new THREE.Vector3().subVectors(box1World.max, box1World.min);
+                const tipBoxSize = new THREE.Vector3().subVectors(tipBoxLocal.max, tipBoxLocal.min);
+                
+                // Обчислюємо відстань між центрами box
+                const box1Center = new THREE.Vector3().addVectors(box1World.min, box1World.max).multiplyScalar(0.5);
+                const tipBoxCenter = new THREE.Vector3().addVectors(tipBoxLocal.min, tipBoxLocal.max).multiplyScalar(0.5);
+                const distance = box1Center.distanceTo(tipBoxCenter);
+                
+                // Визначаємо напрямок відносно об'єкта (спереду/збоку)
+                const direction = new THREE.Vector3().subVectors(tipBoxCenter, box1Center).normalize();
+                const objectForward = new THREE.Vector3(0, 0, 1); // Припускаємо, що об'єкт орієнтований вперед по Z
+                const angle = direction.angleTo(objectForward) * (180 / Math.PI);
+                const isFront = angle < 45 ? 'СПЕРЕДУ' : (angle > 135 ? 'ЗЗАДУ' : 'ЗБОКУ');
+                
+                console.log(`[${isFront}] Collision: Object1=${box1Size.x.toFixed(1)}x${box1Size.y.toFixed(1)}x${box1Size.z.toFixed(1)}, Tip=${tipBoxSize.x.toFixed(1)}x${tipBoxSize.y.toFixed(1)}x${tipBoxSize.z.toFixed(1)}, Distance=${distance.toFixed(2)}mm, Angle=${angle.toFixed(0)}°`);
+                // ---------------------------------------------
 
                 // --- Check collision based on mode ---
                 let isColliding = false;
@@ -2023,6 +2102,12 @@
                     // 3D mode: Full 3D bounding box intersection
                     isColliding = box1World.intersectsBox(tipBoxLocal);
                 }
+
+                // --- Debug: виводимо результат колізії ---
+                if (isColliding) {
+                    console.log(`  → COLLISION DETECTED! [${isFront}]`);
+                }
+                // -----------------------------------------
 
                 // --- ВІЗУАЛЬНИЙ ВІДГУК: спалах кінчика контролера при дотику ---
                 if (isColliding) {
@@ -2109,10 +2194,78 @@
                         // Детектуємо маркери один раз на кадр (як у 4x4-3d.html)
                         var arucoMarkers = ArucoMarkerControls.detectMarkers(arToolkitSource);
                         
+                        // Debug: вивід інформації про детектовані маркери (тільки при зміні)
+                        let detectedIds = arucoMarkers.map(m => m.id).join(', ');
+                        if (detectedIds !== window.lastDetectedIds) {
+                            console.log(`[ARUCO] Detected markers: ${arucoMarkers.length} [IDs: ${detectedIds || 'none'}]`);
+                            window.lastDetectedIds = detectedIds;
+                        }
+                        
                         // Оновлюємо кожен контролер з попередньо детектованими маркерами
                         arucoControls.forEach(controls => {
                             controls.update(arToolkitSource, arucoMarkers);
                         });
+                        
+                        // Перевіряємо видимість ArUco-маркерів і ховаємо об'єкти якщо маркер втрачено
+                        // Проходимо по ВСІХ ArUco-маркерах, а не тільки тих, що мають аудіо
+                        for (let i = 0; i < config.markers.length; i++) {
+                            if (config.markers[i].type.startsWith('aruco:')) {
+                                const markerRoot = markerRoots[i];
+                                const targetId = config.markers[i].target;
+                                
+                                // Перевіряємо чи маркер все ще детектується
+                                let markerDetected = false;
+                                arucoMarkers.forEach(marker => {
+                                    if (marker.id === targetId) {
+                                        markerDetected = true;
+                                    }
+                                });
+                                
+                                // Зберігаємо попередній стан детектування
+                                let prevDetected = window.arucoMarkerDetected || {};
+                                if (!window.arucoMarkerDetected) window.arucoMarkerDetected = {};
+                                window.arucoMarkerDetected[targetId] = markerDetected;
+                                
+                                // Виводимо лог тільки при зміні стану
+                                if (prevDetected[targetId] !== markerDetected) {
+                                    console.log(`[ARUCO] Marker ${targetId}: detected=${markerDetected}, state=${markerContentState.get(i) ? 'ALTERNATIVE' : 'MAIN'}`);
+                                }
+                                
+                                // Використовуємо буферизацію для запобігання мерехтінню
+                                if (!markerDetected) {
+                                    // Збільшуємо лічильник втрати маркера
+                                    let lossCount = arucoMarkerLossCount.get(targetId) || 0;
+                                    arucoMarkerLossCount.set(targetId, lossCount + 1);
+
+                                    // Ховаємо тільки після N кадрів поспіль без детектування
+                                    if (lossCount >= arucoMarkerLossThreshold) {
+                                        // Виводимо лог тільки при першому досягненні порогу
+                                        if (lossCount === arucoMarkerLossThreshold) {
+                                            console.log(`[ARUCO] Marker ${targetId}: HIDING content (marker lost)`);
+                                        }
+                                        
+                                        markerRoot.visible = false;
+
+                                        // Якщо маркер втрачено - ховаємо альтернативний контент (ігноруємо cooldown)
+                                        if (markerContentState.get(i)) {
+                                            lastSwitchTime = 0;  // Скидаємо для миттєвого перемикання
+                                            switchMarkerContent(i, false);
+                                        }
+
+                                        // Скидаємо audio played state для цього маркера (без логу)
+                                        markerAudioPlayed.delete(i);
+                                    }
+                                } else {
+                                    // Маркер детектується - скидаємо лічильник і показуємо контент
+                                    // Виводимо лог тільки якщо маркер був втрачений
+                                    if (arucoMarkerLossCount.get(targetId) > 0) {
+                                        console.log(`[ARUCO] Marker ${targetId}: detected again, resetting loss counter`);
+                                    }
+                                    arucoMarkerLossCount.set(targetId, 0);
+                                    markerRoot.visible = true;
+                                }
+                            }
+                        }
                     }
 
                     if (contentInitialized) {
@@ -2261,43 +2414,61 @@
                         if (arucoControls && arucoControls.length > 0) {
                             arucoSound.forEach((soundData, markerIndex) => {
                                 if (!soundData) return;
-                                
+
                                 let sound = soundData.sound || soundData;
                                 let playOnControllerIntersect = soundData.playOnControllerIntersect || false;
-                                
+
+                                // ✅ ПЕРЕВІРКА: чи детектується маркер (видимий markerRoot)
+                                let markerDetected = markerRoots[markerIndex] && markerRoots[markerIndex].visible;
+
                                 // Для ArUco не можемо отримати статус детектування з arToolkitContext
-                                // Тому використовуємо тільки controllerIntersects
+                                // Тому використовуємо тільки controllerIntersects + markerDetected
                                 let controllerIntersects = currentIntersectedMarker === markerIndex;
-                                
+
                                 // Determine if should play based on flag
-                                let shouldPlay = controllerIntersects;
+                                let shouldPlay = controllerIntersects && markerDetected;
+
+                                // Виводити лог тільки при зміні стану
+                                let currentState = `intersects:${controllerIntersects},detected:${markerDetected},played:${markerAudioPlayed.has(markerIndex)}`;
+                                let lastState = lastMarkerStates[`aruco_${markerIndex}_audio`] || '';
+                                if (currentState !== lastState) {
+                                    console.log(`[AUDIO DEBUG] Marker ${markerIndex}: controllerIntersects=${controllerIntersects}, markerDetected=${markerDetected}, shouldPlay=${shouldPlay}, audioPlayed=${markerAudioPlayed.has(markerIndex)}, sound=${sound.name}`);
+                                    lastMarkerStates[`aruco_${markerIndex}_audio`] = currentState;
+                                }
                                 
                                 if (shouldPlay) {
                                     // Play audio only if it hasn't been played yet for this intersection
                                     if (!markerAudioPlayed.has(markerIndex)) {
+                                        console.log(`[AUDIO] START playing for marker ${markerIndex}: ${sound.name}`);
                                         // --- ЗАТРИМКА АУДІО: синхронізація з появою контенту (0.5 сек) ---
                                         if (!markerAudioTimeouts.has(markerIndex)) {
                                             var timeoutId = setTimeout(function() {
+                                                console.log(`[AUDIO] TIMER FIRED for marker ${markerIndex}: ${sound.name}`);
                                                 if (sound.nodeName === 'VIDEO') {
                                                     if (sound.paused) {
                                                         sound.play();
                                                         markerAudioPlayed.add(markerIndex);
+                                                        console.log(`[AUDIO] VIDEO playing: ${sound.name}`);
                                                     }
                                                 } else {
                                                     if (!sound.isPlaying) {
                                                         sound.play();
                                                         markerAudioPlayed.add(markerIndex);
+                                                        console.log(`[AUDIO] AUDIO playing: ${sound.name}`);
                                                     }
                                                 }
                                                 markerAudioTimeouts.delete(markerIndex);
                                             }, controllerIntersectionDelay);
-                                            
+
                                             markerAudioTimeouts.set(markerIndex, timeoutId);
                                         }
                                         // -----------------------------------------------------------------------
                                     }
                                 } else {
-                                    // Reset audio state when not intersecting
+                                    // Reset audio state when not intersecting OR marker not detected
+                                    if (markerAudioPlayed.has(markerIndex)) {
+                                        console.log(`[AUDIO] STOP for marker ${markerIndex}: ${sound.name}`);
+                                    }
                                     markerAudioPlayed.delete(markerIndex);
                                     
                                     if (markerAudioTimeouts.has(markerIndex)) {
@@ -2306,9 +2477,15 @@
                                     }
                                     
                                     if (sound.nodeName === 'VIDEO') {
-                                        if (!sound.paused) sound.pause();
+                                        if (!sound.paused) {
+                                            sound.pause();
+                                            console.log(`[AUDIO] VIDEO paused: ${sound.name}`);
+                                        }
                                     } else {
-                                        if (sound.isPlaying) sound.stop();
+                                        if (sound.isPlaying) {
+                                            sound.stop();
+                                            console.log(`[AUDIO] AUDIO stopped: ${sound.name}`);
+                                        }
                                     }
                                 }
                             });
