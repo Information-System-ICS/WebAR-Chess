@@ -527,7 +527,7 @@ Gato
                 </div>
                 <div class="config-item">
                     <label for="textColor">Text:</label>
-                    <input type="color" id="textColor" value="#000000">
+                    <input type="color" id="textColor" value="#667eea">
                 </div>
                 <div class="config-item">
                     <label for="iconColor">Icon:</label>
@@ -535,11 +535,11 @@ Gato
                 </div>
                 <div class="config-item">
                     <label for="fontSize">Font Size (px):</label>
-                    <input type="number" id="fontSize" value="48" min="12" max="200">
+                    <input type="number" id="fontSize" value="60" min="12" max="200">
                 </div>
                 <div class="config-item">
                     <label for="iconSize">Icon Size (px):</label>
-                    <input type="number" id="iconSize" value="100" min="20" max="500">
+                    <input type="number" id="iconSize" value="150" min="20" max="500">
                 </div>
                 <div class="config-item">
                     <div class="layout-options" style="margin-bottom: 0; gap: 5px; align-items: flex-end;">
@@ -1220,83 +1220,54 @@ Gato
         }
 
         function drawFlagOnCanvas(ctx, lang, x, y) {
-            const flagWidth = 40;
-            const flagHeight = 27;
+            const flagWidth = 80;
+            const flagHeight = 54;
+
+            // Get SVG flag definition and draw it on canvas
+            const svgFlag = getSvgFlagForLanguage(lang, flagWidth, flagHeight);
             
-            const flagColors = {
-                'pt-pt': { bg: '#006600', rect: '#ff0000', circle: '#ffcc00' },
-                'pt-br': { bg: '#009c3b', diamond: '#ffdf00', circle: '#002776' },
-                'pl-pl': { top: '#ffffff', bottom: '#dc143c' },
-                'de-de': { top: '#000000', middle: '#dd0000', bottom: '#ffce00' },
-                'en-us': { bg: '#b22234', stripe: '#ffffff', union: '#3c3b6e' },
-                'en-gb': { bg: '#012169', white: '#ffffff', red: '#C8102E' },
-                'es-es': { top: '#aa151b', middle: '#f1bf00' },
-                'fr-fr': { left: '#0055a4', middle: '#ffffff', right: '#ef4135' },
-                'it-it': { left: '#008c45', middle: '#ffffff', right: '#cd212a' }
-            };
-
-            const colors = flagColors[lang];
-            if (!colors) return;
-
-            // Draw flag based on language
-            if (lang === 'pt-pt') {
-                ctx.fillStyle = colors.bg;
-                ctx.fillRect(x - flagWidth/2, y - flagHeight/2, flagWidth, flagHeight);
-                ctx.fillStyle = colors.rect;
-                ctx.fillRect(x + 2, y - flagHeight/2, flagWidth * 0.4, flagHeight);
-                ctx.fillStyle = colors.circle;
-                ctx.beginPath();
-                ctx.arc(x - 5, y, 8, 0, Math.PI * 2);
-                ctx.fill();
-            } else if (lang === 'pt-br') {
-                ctx.fillStyle = colors.bg;
-                ctx.fillRect(x - flagWidth/2, y - flagHeight/2, flagWidth, flagHeight);
-                ctx.fillStyle = colors.diamond;
-                ctx.beginPath();
-                ctx.moveTo(x, y - flagHeight/2 + 3);
-                ctx.lineTo(x + flagWidth/2 - 3, y);
-                ctx.lineTo(x, y + flagHeight/2 - 3);
-                ctx.lineTo(x - flagWidth/2 + 3, y);
-                ctx.closePath();
-                ctx.fill();
-                ctx.fillStyle = colors.circle;
-                ctx.beginPath();
-                ctx.arc(x, y, 6, 0, Math.PI * 2);
-                ctx.fill();
-            } else if (lang === 'pl-pl' || lang === 'de-de' || lang === 'es-es') {
-                const h = flagHeight / 2;
-                ctx.fillStyle = colors.top;
-                ctx.fillRect(x - flagWidth/2, y - flagHeight/2, flagWidth, h);
-                ctx.fillStyle = lang === 'pl-pl' ? colors.bottom : (lang === 'de-de' ? colors.middle : colors.middle);
-                ctx.fillRect(x - flagWidth/2, y, flagWidth, h);
-            } else if (lang === 'fr-fr' || lang === 'it-it') {
-                const w = flagWidth / 3;
-                ctx.fillStyle = colors.left;
-                ctx.fillRect(x - flagWidth/2, y - flagHeight/2, w, flagHeight);
-                ctx.fillStyle = colors.middle;
-                ctx.fillRect(x - flagWidth/2 + w, y - flagHeight/2, w, flagHeight);
-                ctx.fillStyle = colors.right;
-                ctx.fillRect(x - flagWidth/2 + w*2, y - flagHeight/2, w, flagHeight);
-            } else if (lang === 'en-us') {
-                ctx.fillStyle = colors.bg;
-                ctx.fillRect(x - flagWidth/2, y - flagHeight/2, flagWidth, flagHeight);
-                ctx.fillStyle = colors.stripe;
-                for (let i = 0; i < 7; i++) {
-                    ctx.fillRect(x - flagWidth/2, y - flagHeight/2 + i * (flagHeight/13), flagWidth, flagHeight/26);
+            const img = new Image();
+            img.src = 'data:image/svg+xml;base64,' + btoa(svgFlag);
+            img.onload = () => {
+                ctx.drawImage(img, x - flagWidth/2, y - flagHeight/2, flagWidth, flagHeight);
+                
+                // Draw country code next to flag
+                const countryCodes = {
+                    'pt-pt': 'PT',
+                    'pt-br': 'BR',
+                    'pl-pl': 'PL',
+                    'de-de': 'DE',
+                    'en-us': 'US',
+                    'en-gb': 'GB',
+                    'es-es': 'ES',
+                    'fr-fr': 'FR',
+                    'it-it': 'IT'
+                };
+                
+                const code = countryCodes[lang] || '';
+                if (code) {
+                    ctx.font = 'bold 14px Arial';
+                    ctx.fillStyle = '#333';
+                    ctx.textAlign = 'left';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText(code, x + flagWidth/2 + 5, y);
                 }
-                ctx.fillStyle = colors.union;
-                ctx.fillRect(x - flagWidth/2, y - flagHeight/2, flagWidth * 0.4, flagHeight * 0.53);
-            } else if (lang === 'en-gb') {
-                ctx.fillStyle = colors.bg;
-                ctx.fillRect(x - flagWidth/2, y - flagHeight/2, flagWidth, flagHeight);
-                // Simplified Union Jack
-                ctx.fillStyle = colors.white;
-                ctx.fillRect(x - flagWidth/2, y - 3, flagWidth, 6);
-                ctx.fillRect(x - 3, y - flagHeight/2, 6, flagHeight);
-                ctx.fillStyle = colors.red;
-                ctx.fillRect(x - flagWidth/2, y - 2, flagWidth, 4);
-                ctx.fillRect(x - 2, y - flagHeight/2, 4, flagHeight);
-            }
+            };
+        }
+
+        function getSvgFlagForLanguage(lang, width, height) {
+            const flagMap = {
+                'pt-pt': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 60" width="${width}" height="${height}"><rect width="90" height="60" fill="#006600"/><rect x="36" y="0" width="54" height="60" fill="#ff0000"/><circle cx="36" cy="30" r="20" fill="#ffcc00"/><g stroke="#006600" stroke-width="1.5"><circle cx="36" cy="30" r="14" fill="none"/><circle cx="36" cy="30" r="10" fill="none"/><circle cx="36" cy="30" r="6" fill="none"/><line x1="36" y1="16" x2="36" y2="44"/><line x1="22" y1="30" x2="50" y2="30"/><line x1="27" y1="21" x2="45" y2="39"/><line x1="45" y1="21" x2="27" y2="39"/></g><ellipse cx="36" cy="30" rx="8" ry="9" fill="#ffffff" stroke="#c00" stroke-width="0.5"/><g fill="#0066cc"><circle cx="32" cy="28" r="1.2"/><circle cx="40" cy="28" r="1.2"/><circle cx="36" cy="26" r="1.2"/><circle cx="34" cy="32" r="1.2"/><circle cx="38" cy="32" r="1.2"/><circle cx="36" cy="35" r="1.2"/></g></svg>`,
+                'pt-br': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="${width}" height="${height}"><rect width="1000" height="700" fill="#009c3b"/><polygon points="500,100 900,350 500,600 100,350" fill="#ffdf00"/><circle cx="500" cy="350" r="175" fill="#002776"/><path d="M350,320 Q500,400 650,320" stroke="#fff" stroke-width="25" fill="none"/><text x="500" y="360" font-size="35" fill="#fff" text-anchor="middle" font-family="Arial" font-weight="bold">ORDEM E PROGRESSO</text><g fill="#fff"><circle cx="500" cy="280" r="15"/><circle cx="440" cy="340" r="10"/><circle cx="560" cy="340" r="10"/><circle cx="480" cy="400" r="12"/><circle cx="520" cy="420" r="8"/><circle cx="420" cy="370" r="8"/><circle cx="580" cy="370" r="8"/></g></svg>`,
+                'pl-pl': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 50" width="${width}" height="${height}"><rect width="80" height="25" fill="#fff"/><rect y="25" width="80" height="25" fill="#dc143c"/></svg>`,
+                'de-de': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 60" width="${width}" height="${height}"><rect width="90" height="20" fill="#000"/><rect y="20" width="90" height="20" fill="#dd0000"/><rect y="40" width="90" height="20" fill="#ffce00"/></svg>`,
+                'en-us': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 60" width="${width}" height="${height}"><rect width="90" height="60" fill="#b22234"/><rect y="0" width="90" height="60" fill="#fff" stroke="#b22234" stroke-width="9.23"/><rect width="36" height="32.31" fill="#3c3b6e"/></svg>`,
+                'en-gb': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40" width="${width}" height="${height}"><rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" stroke-width="5" fill="none"/><rect x="0" y="16" width="60" height="8" fill="#fff"/><rect x="26" y="0" width="8" height="40" fill="#fff"/><rect x="0" y="18" width="60" height="4" fill="#C8102E"/><rect x="28" y="0" width="4" height="40" fill="#C8102E"/></svg>`,
+                'es-es': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 500" width="${width}" height="${height}"><rect width="750" height="500" fill="#AA151B"/><rect y="125" width="750" height="250" fill="#F1BF00"/><g transform="translate(180,250)"><ellipse cx="0" cy="0" rx="55" ry="50" fill="#F1BF00" stroke="#AA151B" stroke-width="3"/><path d="M-20,-35 L-20,-20 L-35,-20 L-20,-5 L-20,10 L-5,-5 L10,10 L10,-5 L25,-20 L10,-20 L10,-35 Z" fill="#AA151B"/><circle cx="0" cy="-15" r="8" fill="#AA151B"/><path d="M-30,15 Q0,35 30,15" stroke="#AA151B" stroke-width="3" fill="none"/><path d="M-25,25 Q0,45 25,25" stroke="#AA151B" stroke-width="3" fill="none"/></g></svg>`,
+                'fr-fr': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 60" width="${width}" height="${height}"><rect width="30" height="60" fill="#0055a4"/><rect x="30" width="30" height="60" fill="#fff"/><rect x="60" width="30" height="60" fill="#ef4135"/></svg>`,
+                'it-it': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 60" width="${width}" height="${height}"><rect width="30" height="60" fill="#008c45"/><rect x="30" width="30" height="60" fill="#fff"/><rect x="60" width="30" height="60" fill="#cd212a"/></svg>`
+            };
+            return flagMap[lang] || `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="${width}" height="${height}"><circle cx="12" cy="12" r="10" fill="#667eea"/></svg>`;
         }
 
         function getFlagForLanguage(lang) {

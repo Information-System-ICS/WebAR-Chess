@@ -31,15 +31,15 @@
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [35, 5, 35],
+        "size": [37, 5, 37],
         "textureFile": "en_Man.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
-          "textureFile": "en_Man_2.jpg"
+          "size": [55, 10, 55],
+          "textureFile": "en_Man.jpg"
         }
       },
       "audioFile": "en_Man.mp3",
@@ -53,14 +53,14 @@
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [35, 5, 35],
-        "textureFile": "pt-pt-question.jpg"
+        "size": [37, 5, 37],
+        "textureFile": "pt-question.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
+          "size": [55, 10, 55],
           "textureFile": "pt-pt_Homem.jpg"
         }
       },
@@ -75,7 +75,7 @@
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [35, 5, 35],
+        "size": [37, 5, 37],
         "textureFile": "en_Woman.jpg"
       },
       "alternativeContent": {
@@ -83,7 +83,7 @@
         "primitive": {
           "type": "BoxGeometry",
           "size": [45, 10, 45],
-          "textureFile": "en_Woman_2.jpg"
+          "textureFile": "en_Woman.jpg"
         }
       },
       "audioFile": "en_Woman.mp3",
@@ -97,8 +97,8 @@
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [35, 5, 35],
-        "textureFile": "pt-pt-question.jpg"
+        "size": [37, 5, 37],
+        "textureFile": "pt-question.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",
@@ -119,7 +119,7 @@
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [35, 5, 35],
+        "size": [37, 5, 37],
         "textureFile": "en_Dog.jpg"
       },
       "alternativeContent": {
@@ -127,7 +127,7 @@
         "primitive": {
           "type": "BoxGeometry",
           "size": [45, 10, 45],
-          "textureFile": "en_Dog_2.jpg"
+          "textureFile": "en_Dog.jpg"
         }
       },
       "audioFile": "en_Dog.mp3",
@@ -141,8 +141,8 @@
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [35, 5, 35],
-        "textureFile": "pt-pt-question.jpg"
+        "size": [37, 5, 37],
+        "textureFile": "pt-question.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",

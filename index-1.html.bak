@@ -398,6 +398,10 @@
             let lastSwitchTime = 0;
             let switchCooldown = 200; // 300ms minimum between switches (optimal for fast response)
             
+            // ArUco marker loss buffer to prevent flickering (require N consecutive frames without detection)
+            let arucoMarkerLossCount = new Map();
+            let arucoMarkerLossThreshold = 3; // Require 3 consecutive frames without detection
+            
             // Font for text geometry
             let font = null;
             let fontLoader = new THREE.FontLoader();
@@ -1940,6 +1944,12 @@
                     }
                 });
 
+                // ✅ ПЕРЕВІРКА: якщо маркер не детектується (не видимий), ігноруємо колізію
+                if (intersectedMarkerIndex !== null && !markerRoots[intersectedMarkerIndex].visible) {
+                    console.log(`[COLLISION IGNORED] Marker ${intersectedMarkerIndex} is not detected (markerRoot not visible)`);
+                    intersectedMarkerIndex = null;
+                }
+
                 // Update current intersected marker for audio playback
                 currentIntersectedMarker = intersectedMarkerIndex;
 
@@ -2184,11 +2194,12 @@
                         // Детектуємо маркери один раз на кадр (як у 4x4-3d.html)
                         var arucoMarkers = ArucoMarkerControls.detectMarkers(arToolkitSource);
                         
-                        // Debug: вивід інформації про детектовані маркери
-                        console.log(`[ARUCO] Detected markers: ${arucoMarkers.length}`);
-                        arucoMarkers.forEach(marker => {
-                            console.log(`[ARUCO] Marker ID: ${marker.id}`);
-                        });
+                        // Debug: вивід інформації про детектовані маркери (тільки при зміні)
+                        let detectedIds = arucoMarkers.map(m => m.id).join(', ');
+                        if (detectedIds !== window.lastDetectedIds) {
+                            console.log(`[ARUCO] Detected markers: ${arucoMarkers.length} [IDs: ${detectedIds || 'none'}]`);
+                            window.lastDetectedIds = detectedIds;
+                        }
                         
                         // Оновлюємо кожен контролер з попередньо детектованими маркерами
                         arucoControls.forEach(controls => {
@@ -2210,12 +2221,48 @@
                                     }
                                 });
                                 
-                                console.log(`[ARUCO] Marker ${targetId}: detected=${markerDetected}, state=${markerContentState.get(i) ? 'ALTERNATIVE' : 'MAIN'}`);
+                                // Зберігаємо попередній стан детектування
+                                let prevDetected = window.arucoMarkerDetected || {};
+                                if (!window.arucoMarkerDetected) window.arucoMarkerDetected = {};
+                                window.arucoMarkerDetected[targetId] = markerDetected;
                                 
-                                // Якщо маркер втрачено - ховаємо альтернативний контент
-                                if (!markerDetected && markerContentState.get(i)) {
-                                    console.log(`[ARUCO] Marker ${targetId}: HIDING content`);
-                                    switchMarkerContent(i, false);
+                                // Виводимо лог тільки при зміні стану
+                                if (prevDetected[targetId] !== markerDetected) {
+                                    console.log(`[ARUCO] Marker ${targetId}: detected=${markerDetected}, state=${markerContentState.get(i) ? 'ALTERNATIVE' : 'MAIN'}`);
+                                }
+                                
+                                // Використовуємо буферизацію для запобігання мерехтінню
+                                if (!markerDetected) {
+                                    // Збільшуємо лічильник втрати маркера
+                                    let lossCount = arucoMarkerLossCount.get(targetId) || 0;
+                                    arucoMarkerLossCount.set(targetId, lossCount + 1);
+
+                                    // Ховаємо тільки після N кадрів поспіль без детектування
+                                    if (lossCount >= arucoMarkerLossThreshold) {
+                                        // Виводимо лог тільки при першому досягненні порогу
+                                        if (lossCount === arucoMarkerLossThreshold) {
+                                            console.log(`[ARUCO] Marker ${targetId}: HIDING content (marker lost)`);
+                                        }
+                                        
+                                        markerRoot.visible = false;
+
+                                        // Якщо маркер втрачено - ховаємо альтернативний контент (ігноруємо cooldown)
+                                        if (markerContentState.get(i)) {
+                                            lastSwitchTime = 0;  // Скидаємо для миттєвого перемикання
+                                            switchMarkerContent(i, false);
+                                        }
+
+                                        // Скидаємо audio played state для цього маркера (без логу)
+                                        markerAudioPlayed.delete(i);
+                                    }
+                                } else {
+                                    // Маркер детектується - скидаємо лічильник і показуємо контент
+                                    // Виводимо лог тільки якщо маркер був втрачений
+                                    if (arucoMarkerLossCount.get(targetId) > 0) {
+                                        console.log(`[ARUCO] Marker ${targetId}: detected again, resetting loss counter`);
+                                    }
+                                    arucoMarkerLossCount.set(targetId, 0);
+                                    markerRoot.visible = true;
                                 }
                             }
                         }
@@ -2367,43 +2414,61 @@
                         if (arucoControls && arucoControls.length > 0) {
                             arucoSound.forEach((soundData, markerIndex) => {
                                 if (!soundData) return;
-                                
+
                                 let sound = soundData.sound || soundData;
                                 let playOnControllerIntersect = soundData.playOnControllerIntersect || false;
-                                
+
+                                // ✅ ПЕРЕВІРКА: чи детектується маркер (видимий markerRoot)
+                                let markerDetected = markerRoots[markerIndex] && markerRoots[markerIndex].visible;
+
                                 // Для ArUco не можемо отримати статус детектування з arToolkitContext
-                                // Тому використовуємо тільки controllerIntersects
+                                // Тому використовуємо тільки controllerIntersects + markerDetected
                                 let controllerIntersects = currentIntersectedMarker === markerIndex;
-                                
+
                                 // Determine if should play based on flag
-                                let shouldPlay = controllerIntersects;
+                                let shouldPlay = controllerIntersects && markerDetected;
+
+                                // Виводити лог тільки при зміні стану
+                                let currentState = `intersects:${controllerIntersects},detected:${markerDetected},played:${markerAudioPlayed.has(markerIndex)}`;
+                                let lastState = lastMarkerStates[`aruco_${markerIndex}_audio`] || '';
+                                if (currentState !== lastState) {
+                                    console.log(`[AUDIO DEBUG] Marker ${markerIndex}: controllerIntersects=${controllerIntersects}, markerDetected=${markerDetected}, shouldPlay=${shouldPlay}, audioPlayed=${markerAudioPlayed.has(markerIndex)}, sound=${sound.name}`);
+                                    lastMarkerStates[`aruco_${markerIndex}_audio`] = currentState;
+                                }
                                 
                                 if (shouldPlay) {
                                     // Play audio only if it hasn't been played yet for this intersection
                                     if (!markerAudioPlayed.has(markerIndex)) {
+                                        console.log(`[AUDIO] START playing for marker ${markerIndex}: ${sound.name}`);
                                         // --- ЗАТРИМКА АУДІО: синхронізація з появою контенту (0.5 сек) ---
                                         if (!markerAudioTimeouts.has(markerIndex)) {
                                             var timeoutId = setTimeout(function() {
+                                                console.log(`[AUDIO] TIMER FIRED for marker ${markerIndex}: ${sound.name}`);
                                                 if (sound.nodeName === 'VIDEO') {
                                                     if (sound.paused) {
                                                         sound.play();
                                                         markerAudioPlayed.add(markerIndex);
+                                                        console.log(`[AUDIO] VIDEO playing: ${sound.name}`);
                                                     }
                                                 } else {
                                                     if (!sound.isPlaying) {
                                                         sound.play();
                                                         markerAudioPlayed.add(markerIndex);
+                                                        console.log(`[AUDIO] AUDIO playing: ${sound.name}`);
                                                     }
                                                 }
                                                 markerAudioTimeouts.delete(markerIndex);
                                             }, controllerIntersectionDelay);
-                                            
+
                                             markerAudioTimeouts.set(markerIndex, timeoutId);
                                         }
                                         // -----------------------------------------------------------------------
                                     }
                                 } else {
-                                    // Reset audio state when not intersecting
+                                    // Reset audio state when not intersecting OR marker not detected
+                                    if (markerAudioPlayed.has(markerIndex)) {
+                                        console.log(`[AUDIO] STOP for marker ${markerIndex}: ${sound.name}`);
+                                    }
                                     markerAudioPlayed.delete(markerIndex);
                                     
                                     if (markerAudioTimeouts.has(markerIndex)) {
@@ -2412,9 +2477,15 @@
                                     }
                                     
                                     if (sound.nodeName === 'VIDEO') {
-                                        if (!sound.paused) sound.pause();
+                                        if (!sound.paused) {
+                                            sound.pause();
+                                            console.log(`[AUDIO] VIDEO paused: ${sound.name}`);
+                                        }
                                     } else {
-                                        if (sound.isPlaying) sound.stop();
+                                        if (sound.isPlaying) {
+                                            sound.stop();
+                                            console.log(`[AUDIO] AUDIO stopped: ${sound.name}`);
+                                        }
                                     }
                                 }
                             });
