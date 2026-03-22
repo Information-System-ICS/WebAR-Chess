@@ -1,8 +1,41 @@
-# Аналіз алгоритму роботи barcode-маркерів у WebAR-проекті
+# Аналіз алгоритму роботи AR-маркерів у WebAR-проекті
 
 ## Вступ
 
-Цей документ описує алгоритм обробки даних від barcode-маркерів у WebAR-проекті, який використовує бібліотеку **AR.js** (artoolkit) для розпізнавання маркерів та **Three.js** для 3D-візуалізації.
+Цей документ описує алгоритм обробки даних від **двох типів маркерів** у WebAR-проекті:
+
+1. **Barcode/Pattern маркери** — бібліотека **AR.js** (artoolkit) для розпізнавання маркерів
+2. **ArUco маркери** — бібліотека **js-aruco2** з **POSIT** алгоритмом для оцінки 3D пози
+
+Обидві системи використовують **Three.js** для 3D-візуалізації та працюють **паралельно** в index-1.html.
+
+---
+
+## ⚠️ Критичні уточнення (після аналізу коду)
+
+### Дві різні AR-системи в одному проекті
+
+```
+index-1.html підключає:
+
+AR.js / ARToolKit система:
+├── jsartoolkit5/artoolkit.min.js
+├── jsartoolkit5/artoolkit.api.js
+├── threex/threex-artoolkitsource.js
+├── threex/threex-artoolkitcontext.js
+├── threex/threex-arbasecontrols.js
+└── threex/threex-armarkercontrols.js
+
+ArUco / js-aruco2 система:
+├── js-aruco2/src/svd.js
+├── js-aruco2/src/posit1.js          ← POSIT алгоритм
+├── js-aruco2/src/cv.js
+├── js-aruco2/src/aruco.js
+├── js-aruco2/src/dictionaries/aruco_4x4_1000.js
+└── js/aruco.js                       ← ArucoMarkerControls
+```
+
+**Важливо:** Цей документ спочатку описував ТІЛЬКИ AR.js/ARToolKit. Після оновлення додано розділ про ArUco/js-aruco2.
 
 ---
 
@@ -1021,6 +1054,249 @@ case 'primitive':
 5. **Оновлюється** позиція `markerRoots[0]` (група для маркера 1)
 6. **Візуалізується** конус у позиції маркера
 7. **Анімується** обертання конуса навколо осі Y (з конфігурації)
+
+---
+
+## 4.5. ArUco-маркери: POSIT алгоритм (js-aruco2)
+
+**Важливо:** Окрім AR.js/ARToolKit, проект також використовує **js-aruco2** з **POSIT** алгоритмом для ArUco-маркерів.
+
+### 4.5.1. Чому POSIT для ArUco, а не для ARToolKit?
+
+| Система | Метод | Причина |
+|---------|-------|---------|
+| **ARToolKit** (barcode/pattern) | Гомографія | 4 точки маркера лежать в одній площині (Z=0) |
+| **js-aruco2** (ArUco) | POSIT | 4 кути маркера також планарні, але використовується інший підхід до детектування |
+
+**Насправді:** Обидві системи працюють з планарними маркерами. Різниця в історичній реалізації:
+- ARToolKit традиційно використовує гомографію
+- js-aruco2 використовує POSIT з подальшою оптимізацією
+
+### 4.5.2. Архітектура ArUco системи
+
+```
+index.html підключає:
+├── js-aruco2/src/svd.js              ← SVD розкладання
+├── js-aruco2/src/posit1.js           ← POSIT алгоритм
+├── js-aruco2/src/cv.js               ← Комп'ютерний зір
+├── js-aruco2/src/aruco.js            ← Детектор ArUco
+├── js-aruco2/src/dictionaries/aruco_4x4_1000.js
+└── js/aruco.js                       ← ArucoMarkerControls (інтеграція з Three.js)
+```
+
+### 4.5.3. Алгоритм обробки ArUco-маркерів
+
+**Файл:** `js/aruco.js` (`ArucoMarkerControls`)
+
+```javascript
+var ArucoMarkerControls = function (arToolkitContext, object3d, parameters, canvasWidth) {
+    var _this = this;
+    
+    this.object3d = object3d;
+    this.id = parameters.id;                    // ID ArUco маркера (0-999 для 4x4_1000)
+    this.modelSize = parameters.modelSize;      // Розмір маркера в мм
+    
+    // Ініціалізація детектора (один раз для всіх маркерів)
+    if (!ArucoMarkerControls.detector) {
+        var dictionaryName = parameters.dictionaryName || 'ARUCO_4X4_1000';
+        ArucoMarkerControls.detector = new AR.Detector({
+            dictionaryName: dictionaryName
+        });
+    }
+    
+    // Ініціалізація POSIT (один раз для всіх маркерів)
+    if (!ArucoMarkerControls.posit) {
+        ArucoMarkerControls.posit = new POS.Posit(this.modelSize, DETECTION_WIDTH);
+    }
+};
+```
+
+### 4.5.4. Етапи обробки ArUco-маркерів
+
+#### **Етап 1: Детектування маркерів на зображенні**
+
+```javascript
+// Малюємо відео на detection canvas (640x480 для продуктивності)
+detectionContext.drawImage(video, 0, 0, detectionCanvas.width, detectionCanvas.height);
+
+// Отримуємо imageData з canvas
+var imageData = detectionContext.getImageData(0, 0, detectionCanvas.width, detectionCanvas.height);
+
+// Детектуємо всі маркери на зображенні
+markers = _this.detector.detect(imageData);
+```
+
+**Що відбувається:**
+1. Відео кадр малюється на окремий canvas (640x480)
+2. З canvas отримується `ImageData` для обробки
+3. `AR.Detector.detect()` знаходить всі ArUco-маркери:
+   - Пошук контурів (квадратних фігур)
+   - Розпізнавання внутрішнього коду (біти)
+   - Ідентифікація маркера за словником (ARUCO_4X4_1000)
+
+#### **Етап 2: Обчислення пози через POSIT**
+
+```javascript
+var foundMarker = markers.find(marker => marker.id === _this.id);
+
+if (foundMarker) {
+    // Отримуємо 4 кути маркера
+    var corners = foundMarker.corners.map(corner => ({
+        x: corner.x - (detectionCanvas.width / 2),   // Центр по X
+        y: (detectionCanvas.height / 2) - corner.y   // Центр по Y (інвертовано)
+    }));
+    
+    // POSIT обчислює позицію та обертання
+    var pose = _this.posit.pose(corners);
+    
+    if (pose) {
+        updateObjectPose(pose.bestRotation, pose.bestTranslation);
+    }
+}
+```
+
+**Що відбувається:**
+1. Знаходимо маркер з потрібним ID серед усіх детектованих
+2. Конвертуємо координати кутів відносно центру зображення
+3. `POSIT.pose(corners)` обчислює:
+   - `bestRotation` — матриця обертання 3x3
+   - `bestTranslation` — вектор позиції [x, y, z]
+
+#### **Етап 3: Конвертація у формат Three.js**
+
+```javascript
+var updateObjectPose = function(rotation, translation) {
+    var object = _this.object3d;
+    
+    // Конвертуємо матрицю обертання з POSIT у формат Three.js
+    // POSIT повертає матрицю у стовпчиковому порядку
+    // THREE.Matrix4.set() приймає параметри у рядковому порядку
+    // Тому транспонуємо матрицю: rotation[col][row] замість rotation[row][col]
+    var rotMatrix = new THREE.Matrix4();
+    rotMatrix.set(
+        rotation[0][0], rotation[1][0], rotation[2][0], 0,  // 1-й рядок (транспоновано)
+        rotation[0][1], rotation[1][1], rotation[2][1], 0,  // 2-й рядок (транспоновано)
+        rotation[0][2], rotation[1][2], rotation[2][2], 0,  // 3-й рядок (транспоновано)
+        0, 0, 0, 1
+    );
+    
+    // Корекція орієнтації: POSIT повертає систему, де Z спрямований на камеру
+    // Для Three.js нам потрібно, щоб Y вісь об'єкта була перпендикулярна площині маркера
+    // Поворот на +90° навколо X осі: Y→-Z, Z→Y
+    var correctionMatrix = new THREE.Matrix4();
+    correctionMatrix.makeRotationX(Math.PI / 2);
+    rotMatrix.multiply(correctionMatrix);
+    
+    // Встановлюємо кватерніон з матриці обертання
+    _this.targetQuaternion.setFromRotationMatrix(rotMatrix);
+    
+    // Встановлення позиції (інвертуємо Z для узгодження з Three.js)
+    _this.targetPosition.set(
+        translation[0],
+        translation[1],
+        -translation[2]
+    );
+    
+    // Корекція позиції: додаємо зміщення (-10% від розміру маркера)
+    _this.targetPosition.x += _this.positionOffsetX;
+    _this.targetPosition.z += _this.positionOffsetZ;
+    
+    // Ітерполяція позиції (LERP) для плавності
+    _this.currentPosition.lerp(_this.targetPosition, _this.lerpFactor);
+    
+    // Ітерполяція кватерніона (SLERP) для плавного обертання
+    _this.currentQuaternion.slerp(_this.targetQuaternion, _this.lerpFactor);
+    
+    // Застосовуємо інтерпольовані значення до об'єкта
+    object.position.copy(_this.currentPosition);
+    object.quaternion.copy(_this.currentQuaternion);
+};
+```
+
+**Що відбувається:**
+1. **Транспонування матриці:** POSIT повертає стовпчикову матрицю, Three.js потребує рядкову
+2. **Корекція орієнтації:** Поворот на 90° навколо X осі для узгодження систем координат
+3. **Інверсія Z:** POSIT і Three.js використовують протилежні напрямки осі Z
+4. **Позиційне зміщення:** -10% від розміру маркера для компенсації різниці в системах координат
+5. **Інтерполяція (LERP/SLERP):** Плавне переміщення між кадрами (коефіцієнт 0.5)
+
+### 4.5.5. Система координат ArUco/js-aruco2
+
+```
+POSIT система координат:          Three.js система координат:
+
+     Y ↑                               Y ↑
+     │                                 │
+     │   Z → (на камеру)               │
+     │  ╱                              └────→ X (вправо)
+     │ ╱                              ╱
+     └────→ X (вправо)               ╱
+                                    Z → (на глядача)
+
+Корекція: rotationX(Math.PI / 2) + інверсія Z
+```
+
+### 4.5.6. Оптимізації в ArucoMarkerControls
+
+#### **1. Спільний detection canvas**
+
+```javascript
+// Один canvas для всіх маркерів (не створюється для кожного окремо)
+if (!detectionCanvas) {
+    detectionCanvas = document.createElement('canvas');
+    detectionContext = detectionCanvas.getContext('2d');
+    detectionCanvas.width = DETECTION_WIDTH;   // 640
+    detectionCanvas.height = DETECTION_HEIGHT; // 480
+}
+```
+
+**Перевага:** Менше споживання пам'яті, краща продуктивність
+
+#### **2. Інтерполяція (LERP/SLERP)**
+
+```javascript
+this.lerpFactor = 0.5;  // Коефіцієнт інтерполяції
+
+// Лінійна інтерполяція позиції
+_this.currentPosition.lerp(_this.targetPosition, _this.lerpFactor);
+
+// Сферична інтерполяція кватерніона
+_this.currentQuaternion.slerp(_this.targetQuaternion, _this.lerpFactor);
+```
+
+**Перевага:** Плавніше відстеження, менше "джиттеру"
+
+#### **3. Згладжування видимості**
+
+```javascript
+this.framesLost = 0;
+this.maxFramesLost = 60;  // Маркер зникає після 60 кадрів без детектування
+
+if (markerFoundAndPoseOk) {
+    _this.object3d.visible = true;
+    _this.framesLost = 0;
+} else {
+    _this.framesLost++;
+    if (_this.framesLost > _this.maxFramesLost) {
+        _this.object3d.visible = false;
+    }
+}
+```
+
+**Перевага:** Об'єкт не зникає миттєво при тимчасовій втраті маркера
+
+### 4.5.7. Порівняння ARToolKit vs ArUco/js-aruco2
+
+| Характеристика | ARToolKit (barcode) | ArUco/js-aruco2 |
+|----------------|---------------------|-----------------|
+| **Метод обчислення пози** | Гомографія | POSIT |
+| **Детектування** | Вбудоване в AR.js | Окремий детектор |
+| **Кількість маркерів** | 512 (3x3), 1024 (4x4) | 1000 (4x4_1000) |
+| **Стійкість до спотворень** | Середня | Висока |
+| **Інтерполяція** | getTransMatSquareCont | LERP/SLERP |
+| **Згладжування видимості** | Ні | Так (framesLost) |
+| **Спільний canvas** | Ні | Так |
+| **Корекція системи координат** | Y×π + Z×π | X×π/2 + Z інверсія |
 
 ---
 

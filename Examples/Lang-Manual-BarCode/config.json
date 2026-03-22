@@ -11,7 +11,7 @@
       "matrixSize": 20,
       "contentType": "controller",
       "controllerConfig": {
-        "bodySize": [5, 5, 35],
+        "bodySize": [5, 5, 50],
         "tipSize": [5, 5, 10],
         "bodyColor": "#008000",
         "tipColor": "#ffffff",
@@ -25,21 +25,21 @@
     },    
     {
       "id": 2,
-      "type": "aruco:ARUCO_4X4_1000",
+      "type": "barcode",
       "target": 0,
-      "matrixSize": 30,      
+      "matrixSize": 20,  
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [37, 5, 37],
+        "size": [20, 5, 20],
         "textureFile": "en_Man.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [55, 10, 55],
-          "textureFile": "en_Man.jpg"
+          "size": [35, 5, 35],
+          "textureFile": "en_Man_2.jpg"
         }
       },
       "audioFile": "en_Man.mp3",
@@ -47,20 +47,20 @@
     },
     {
       "id": 3,
-      "type": "aruco:ARUCO_4X4_1000",
+      "type": "barcode",
       "target": 1,
-      "matrixSize": 30,      
+      "matrixSize": 20,      
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [37, 5, 37],
-        "textureFile": "pt-question.jpg"
+        "size": [20, 5, 20],
+        "textureFile": "pt-pt-question.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [55, 10, 55],
+          "size": [35, 5, 35],
           "textureFile": "pt-pt_Homem.jpg"
         }
       },
@@ -69,21 +69,21 @@
     },
     {
       "id": 4,
-      "type": "aruco:ARUCO_4X4_1000",
+      "type": "barcode",
       "target": 2,
-      "matrixSize": 30,      
+      "matrixSize": 20,      
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [37, 5, 37],
+        "size": [20, 5, 20],
         "textureFile": "en_Woman.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
-          "textureFile": "en_Woman.jpg"
+          "size": [35, 5, 35],
+          "textureFile": "en_Woman_2.jpg"
         }
       },
       "audioFile": "en_Woman.mp3",
@@ -91,20 +91,20 @@
     },
     {
       "id": 5,
-      "type": "aruco:ARUCO_4X4_1000",
+      "type": "barcode",
       "target": 3,
-      "matrixSize": 30,      
+      "matrixSize": 20,      
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [37, 5, 37],
-        "textureFile": "pt-question.jpg"
+        "size": [20, 5, 20],
+        "textureFile": "pt-pt-question.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
+          "size": [35, 5, 35],
           "textureFile": "pt-pt_Mulher.jpg"
         }
       },
@@ -113,21 +113,21 @@
     },
     {
       "id": 6,
-      "type": "aruco:ARUCO_4X4_1000",
+      "type": "barcode",
       "target": 4,
-      "matrixSize": 30,      
+      "matrixSize": 20,      
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [37, 5, 37],
+        "size": [20, 5, 20],
         "textureFile": "en_Dog.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
-          "textureFile": "en_Dog.jpg"
+          "size": [35, 5, 35],
+          "textureFile": "en_Dog_2.jpg"
         }
       },
       "audioFile": "en_Dog.mp3",
@@ -135,20 +135,20 @@
     },
     {
       "id": 7,
-      "type": "aruco:ARUCO_4X4_1000",
+      "type": "barcode",
       "target": 5,
-      "matrixSize": 30,      
+      "matrixSize": 20,      
       "contentType": "primitive",
       "primitive": {
         "type": "BoxGeometry",
-        "size": [37, 5, 37],
-        "textureFile": "pt-question.jpg"
+        "size": [20, 5, 20],
+        "textureFile": "pt-pt-question.jpg"
       },
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
+          "size": [35, 5, 35],
           "textureFile": "pt-pt_Cão.jpg"
         }
       },

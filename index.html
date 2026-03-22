@@ -343,6 +343,7 @@
             // Controller haptic feedback timing configuration (defaults)
             let controllerIntersectionDelay = 500; // ms delay between intersection and audio/alternative content
             let controllerTouchSoundDuration = 500; // ms duration of touch sound click
+            let controllerCollisionMode = '3d'; // '3d' (full 3D collision) or '2d' (ignore Z-axis)
             
             // Audio context для тактильного звукового відгуку
             let audioContext = null;
@@ -1775,6 +1776,9 @@
                             // Load controller timing configuration (defaults: 500ms delay, 500ms sound duration)
                             controllerIntersectionDelay = controllerConfig.intersectionDelay || 500;
                             controllerTouchSoundDuration = controllerConfig.touchSoundDuration || 500;
+
+                            // Load collision mode configuration (default: '3d')
+                            controllerCollisionMode = controllerConfig.collisionMode || '3d';
                             break;
                         default:
                             // Якщо жодного контенту не додано, додаємо білу площину.
@@ -1831,8 +1835,31 @@
             }
 
             function checkController() {
-                // Виконуємо перевірку тільки якщо контролер активний (видно камері)
-                if (controller && controller.parent && controller.parent.visible) {
+                // Виконуємо перевірку тільки якщо контролер існує в сцені
+                if (controller && controller.parent) {
+                    // Перевіряємо, чи контролер видно камері
+                    // Якщо батьківський контейнер невидимий (маркер за межами камери) - ігноруємо колізії
+                    if (controller.parent.visible === false) {
+                        // Контролер не видно - скидаємо всі колізії
+                        if (currentIntersectedMarker !== null) {
+                            currentIntersectedMarker = null;
+                            // Reset all markers to first content
+                            for (let i = 0; i < markerRoots.length; i++) {
+                                if (markerContentState.get(i)) {
+                                    switchMarkerContent(i, false);
+                                }
+                                if (markerSoundPlayed.has(i)) {
+                                    markerSoundPlayed.delete(i);
+                                }
+                                if (markerAudioTimeouts.has(i)) {
+                                    clearTimeout(markerAudioTimeouts.get(i));
+                                    markerAudioTimeouts.delete(i);
+                                }
+                            }
+                        }
+                        return;
+                    }
+                    
                     let intersectedMarkerIndex = null;
 
                     mainContainer.traverse((object) => {
@@ -1871,10 +1898,10 @@
                                 if (navigator.vibrate) {
                                     navigator.vibrate(15); // Коротка вібрація 15 мс
                                 }
-                                
+
                                 // Аудіо клік (короткий сигнал)
                                 playTouchSound();
-                                
+
                                 lastHapticTime = currentTime;
 
                                 // Позначаємо, що звук вже відтворено для цього маркера
@@ -1882,7 +1909,7 @@
                             }
                         }
                         // -------------------------------------------------------------
-                        
+
                         // --- ЗАТРИМКА ЗМІНИ КОНТЕНТУ: чекаємо завершення аудіо ---
                         // Альтернативний контент з'явиться після завершення звукового сигналу
                         setTimeout(function() {
@@ -1964,8 +1991,32 @@
                 // Transform tip box to world space (will become world AABB)
                 tipBoxLocal.applyMatrix4(object2.matrixWorld);
 
+                // --- Check collision based on mode ---
+                let isColliding = false;
+                
+                if (controllerCollisionMode === '2d') {
+                    // 2D mode: Project boxes to XY plane (ignore Z-axis)
+                    const box1XY = new THREE.Box2();
+                    const box2XY = new THREE.Box2();
+                    
+                    box1XY.setFromPoints([
+                        new THREE.Vector2(box1World.min.x, box1World.min.y),
+                        new THREE.Vector2(box1World.max.x, box1World.max.y)
+                    ]);
+                    
+                    box2XY.setFromPoints([
+                        new THREE.Vector2(tipBoxLocal.min.x, tipBoxLocal.min.y),
+                        new THREE.Vector2(tipBoxLocal.max.x, tipBoxLocal.max.y)
+                    ]);
+                    
+                    isColliding = box1XY.intersectsBox(box2XY);
+                } else {
+                    // 3D mode: Full 3D bounding box intersection
+                    isColliding = box1World.intersectsBox(tipBoxLocal);
+                }
+
                 // --- ВІЗУАЛЬНИЙ ВІДГУК: спалах кінчика контролера при дотику ---
-                if (box1World.intersectsBox(tipBoxLocal)) {
+                if (isColliding) {
                     // Короткий спалах кінчика контролера (зміна кольору на touchColor з конфігурації)
                     if (object2.material && !object2.userData.flashTimeout) {
                         var originalColor = object2.material.color.clone();
@@ -1982,12 +2033,12 @@
                                 object2.material.color.copy(object2.userData.originalColor);
                             }
                             object2.userData.flashTimeout = null;
-                        }, 500);
+                        }, controllerTouchSoundDuration);
                     }
                 }
                 // ------------------------------------------------
 
-                return box1World.intersectsBox(tipBoxLocal);
+                return isColliding;
             };
 
             // Функція для діагностики маркерів для Тесту 2
