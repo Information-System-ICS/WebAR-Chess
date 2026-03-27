@@ -1,7 +1,7 @@
 {
   "settings": {
     "resolution": "high",
-    "welcomeText": "Натисніть для початку роботи<br>з AR-картками вивчення португальских слів"
+    "welcomeText": "Press here<br>to start the WebAR-BoardGame"
   },
   "markers": [
     {
@@ -25,134 +25,149 @@
     },    
     {
       "id": 2,
-      "type": "aruco:ARUCO_4X4_1000",
-      "target": 0,
-      "matrixSize": 30,      
-      "contentType": "primitive",
-      "primitive": {
-        "type": "BoxGeometry",
-        "size": [37, 5, 37],
-        "textureFile": "en_Man.jpg"
-      },
+      "type": "barcode",
+      "target": 1,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 1,
       "alternativeContent": {
-        "contentType": "primitive",
-        "primitive": {
+         "contentType": "primitive",
+         "primitive": {
           "type": "BoxGeometry",
-          "size": [55, 10, 55],
-          "textureFile": "en_Man.jpg"
+          "size": [50, 5, 50],
+          "textureFile": "peshka.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
         }
       },
-      "audioFile": "en_Man.mp3",
+      "audioFile": "peshka.mp3",
       "playOnControllerIntersect": true
     },
     {
       "id": 3,
-      "type": "aruco:ARUCO_4X4_1000",
-      "target": 1,
-      "matrixSize": 30,      
-      "contentType": "primitive",
-      "primitive": {
-        "type": "BoxGeometry",
-        "size": [37, 5, 37],
-        "textureFile": "pt-question.jpg"
-      },
+      "type": "barcode",
+      "target": 2,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 2,
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [55, 10, 55],
-          "textureFile": "pt-pt_Homem.jpg"
+          "size": [50, 5, 50],
+          "textureFile": "tura.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
         }
       },
-      "audioFile": "pt-pt_Homem.mp3",
+      "audioFile": "tura.mp3",
       "playOnControllerIntersect": true
     },
     {
       "id": 4,
-      "type": "aruco:ARUCO_4X4_1000",
-      "target": 2,
-      "matrixSize": 30,      
-      "contentType": "primitive",
-      "primitive": {
-        "type": "BoxGeometry",
-        "size": [37, 5, 37],
-        "textureFile": "en_Woman.jpg"
-      },
+      "type": "barcode",
+      "target": 3,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 3,
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
-          "textureFile": "en_Woman.jpg"
+          "size": [50, 5, 50],
+          "textureFile": "kon.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
         }
       },
-      "audioFile": "en_Woman.mp3",
+      "audioFile": "kon.mp3",
       "playOnControllerIntersect": true
     },
     {
       "id": 5,
-      "type": "aruco:ARUCO_4X4_1000",
-      "target": 3,
-      "matrixSize": 30,      
-      "contentType": "primitive",
-      "primitive": {
-        "type": "BoxGeometry",
-        "size": [37, 5, 37],
-        "textureFile": "pt-question.jpg"
-      },
+      "type": "barcode",
+      "target": 4,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 4,
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
-          "textureFile": "pt-pt_Mulher.jpg"
+          "size": [50, 5, 50],
+          "textureFile": "slon.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
         }
       },
-      "audioFile": "pt-pt_Mulher.mp3",
+      "audioFile": "slon.mp3",
       "playOnControllerIntersect": true
     },
     {
       "id": 6,
-      "type": "aruco:ARUCO_4X4_1000",
-      "target": 4,
-      "matrixSize": 30,      
-      "contentType": "primitive",
-      "primitive": {
-        "type": "BoxGeometry",
-        "size": [37, 5, 37],
-        "textureFile": "en_Dog.jpg"
-      },
+      "type": "barcode",
+      "target": 5,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 5,
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
-          "textureFile": "en_Dog.jpg"
+          "size": [50, 5, 50],
+          "textureFile": "koroleva.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
         }
       },
-      "audioFile": "en_Dog.mp3",
+      "audioFile": "koroleva.mp3",
       "playOnControllerIntersect": true
     },
     {
       "id": 7,
-      "type": "aruco:ARUCO_4X4_1000",
-      "target": 5,
-      "matrixSize": 30,      
-      "contentType": "primitive",
-      "primitive": {
-        "type": "BoxGeometry",
-        "size": [37, 5, 37],
-        "textureFile": "pt-question.jpg"
-      },
+      "type": "barcode",
+      "target": 6,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 6,
       "alternativeContent": {
         "contentType": "primitive",
         "primitive": {
           "type": "BoxGeometry",
-          "size": [45, 10, 45],
-          "textureFile": "pt-pt_Cão.jpg"
+          "size": [50, 5, 50],
+          "textureFile": "korol.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
         }
       },
-      "audioFile": "pt-pt_Cão.mp3",
+      "audioFile": "korol.mp3",
+      "playOnControllerIntersect": true
+    },
+    {
+      "id": 8,
+      "type": "barcode",
+      "target": 7,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 7,
+      "alternativeContent": {
+        "contentType": "primitive",
+        "primitive": {
+          "type": "BoxGeometry",
+          "size": [50, 5, 50],
+          "textureFile": "peshka.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
+        }
+      },
+      "audioFile": "peshka.mp3",
       "playOnControllerIntersect": true
     }
   ]
