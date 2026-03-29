@@ -400,7 +400,8 @@
             
             // ArUco marker loss buffer to prevent flickering (require N consecutive frames without detection)
             let arucoMarkerLossCount = new Map();
-            let arucoMarkerLossThreshold = 3; // Require 3 consecutive frames without detection
+            let arucoMarkerDetectCount = new Map();  // Лічильник стабільного детектування для запобігання мерехтінню
+            let arucoMarkerLossThreshold = 5; // Require 3 consecutive frames without detection
             
             // Font for text geometry
             let font = null;
@@ -2232,18 +2233,22 @@
                                 }
                                 
                                 // Використовуємо буферизацію для запобігання мерехтінню
+                                // ДВОСТОРОННЯ БУФЕРИЗАЦІЯ: вимагає N кадрів для втрати і N кадрів для підтвердження
                                 if (!markerDetected) {
-                                    // Збільшуємо лічильник втрати маркера
+                                    // Маркер не детектується - збільшуємо лічильник втрати
                                     let lossCount = arucoMarkerLossCount.get(targetId) || 0;
                                     arucoMarkerLossCount.set(targetId, lossCount + 1);
+                                    
+                                    // Скидаємо лічильник стабільного детектування
+                                    arucoMarkerDetectCount.set(targetId, 0);
 
-                                    // Ховаємо тільки після N кадрів поспіль без детектування
+                                    // Ховаємо контент тільки після N кадрів поспіль без детектування
                                     if (lossCount >= arucoMarkerLossThreshold) {
                                         // Виводимо лог тільки при першому досягненні порогу
                                         if (lossCount === arucoMarkerLossThreshold) {
-                                            console.log(`[ARUCO] Marker ${targetId}: HIDING content (marker lost)`);
+                                            console.log(`[ARUCO] Marker ${targetId}: HIDING content (marker lost after ${lossCount} frames)`);
                                         }
-                                        
+
                                         markerRoot.visible = false;
 
                                         // Якщо маркер втрачено - ховаємо альтернативний контент (ігноруємо cooldown)
@@ -2256,13 +2261,21 @@
                                         markerAudioPlayed.delete(i);
                                     }
                                 } else {
-                                    // Маркер детектується - скидаємо лічильник і показуємо контент
-                                    // Виводимо лог тільки якщо маркер був втрачений
-                                    if (arucoMarkerLossCount.get(targetId) > 0) {
-                                        console.log(`[ARUCO] Marker ${targetId}: detected again, resetting loss counter`);
-                                    }
+                                    // Маркер детектується - збільшуємо лічильник стабільного детектування
+                                    let detectCount = arucoMarkerDetectCount.get(targetId) || 0;
+                                    arucoMarkerDetectCount.set(targetId, detectCount + 1);
+                                    
+                                    // Скидаємо лічильник втрати
                                     arucoMarkerLossCount.set(targetId, 0);
-                                    markerRoot.visible = true;
+                                    
+                                    // Показуємо контент тільки після N стабільних кадрів детектування
+                                    if (detectCount >= arucoMarkerLossThreshold) {
+                                        // Виводимо лог тільки якщо маркер був втрачений
+                                        if (arucoMarkerLossCount.get(targetId) === 0 && detectCount === arucoMarkerLossThreshold) {
+                                            console.log(`[ARUCO] Marker ${targetId}: SHOWING content (stable detection after ${detectCount} frames)`);
+                                        }
+                                        markerRoot.visible = true;
+                                    }
                                 }
                             }
                         }

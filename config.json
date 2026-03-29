@@ -169,6 +169,312 @@
       },
       "audioFile": "peshka.mp3",
       "playOnControllerIntersect": true
+    },
+    {
+      "id": 9,
+      "type": "barcode",
+      "target": 9,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 7,
+      "alternativeContent": {
+         "contentType": "primitive",
+         "primitive": {
+          "type": "BoxGeometry",
+          "size": [50, 5, 50],
+          "textureFile": "peshka.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
+        }
+      },
+      "audioFile": "peshka.mp3",
+      "playOnControllerIntersect": true
+    },
+    {
+      "id": 10,
+      "type": "barcode",
+      "target": 10,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 8,
+      "alternativeContent": {
+        "contentType": "primitive",
+        "primitive": {
+          "type": "BoxGeometry",
+          "size": [50, 5, 50],
+          "textureFile": "tura.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
+        }
+      },
+      "audioFile": "tura.mp3",
+      "playOnControllerIntersect": true
+    },
+    {
+      "id": 11,
+      "type": "barcode",
+      "target": 11,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 9,
+      "alternativeContent": {
+        "contentType": "primitive",
+        "primitive": {
+          "type": "BoxGeometry",
+          "size": [50, 5, 50],
+          "textureFile": "kon.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
+        }
+      },
+      "audioFile": "kon.mp3",
+      "playOnControllerIntersect": true
+    },
+    {
+      "id": 12,
+      "type": "barcode",
+      "target": 12,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 10,
+      "alternativeContent": {
+        "contentType": "primitive",
+        "primitive": {
+          "type": "BoxGeometry",
+          "size": [50, 5, 50],
+          "textureFile": "slon.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
+        }
+      },
+      "audioFile": "slon.mp3",
+      "playOnControllerIntersect": true
+    },
+    {
+      "id": 13,
+      "type": "barcode",
+      "target": 13,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 11,
+      "alternativeContent": {
+        "contentType": "primitive",
+        "primitive": {
+          "type": "BoxGeometry",
+          "size": [50, 5, 50],
+          "textureFile": "koroleva.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
+        }
+      },
+      "audioFile": "koroleva.mp3",
+      "playOnControllerIntersect": true
+    },
+    {
+      "id": 14,
+      "type": "barcode",
+      "target": 14,
+      "matrixSize": 35,
+      "contentType": "multiplex-3D",
+      "multiplex3D": 12,
+      "alternativeContent": {
+        "contentType": "primitive",
+        "primitive": {
+          "type": "BoxGeometry",
+          "size": [50, 5, 50],
+          "textureFile": "korol.jpg",
+          "position": [0, 20, 0],
+          "rotation": [45, 0, 0],
+          "animation": { "type": "rotation", "axis": "y", "speed": 30 }
+        }
+      },
+      "audioFile": "korol.mp3",
+      "playOnControllerIntersect": true
+    },
+    {
+      "id": 15,
+      "type": "barcode",
+      "target": 15,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 1, 45],
+        "textureFile": "texture_blue.jpg"
+      }
+    },
+    {
+      "id": 16,
+      "type": "barcode",
+      "target": 16,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 2, 45],
+        "textureFile": "texture_green.jpg"
+      }
+    },
+   {
+      "id": 17,
+      "type": "barcode",
+      "target": 17,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 1, 45],
+        "textureFile": "texture_blue.jpg"
+      }
+    },
+    {
+      "id": 18,
+      "type": "barcode",
+      "target": 18,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 2, 45],
+        "textureFile": "texture_green.jpg"
+      }
+    }, 
+    {
+      "id": 19,
+      "type": "barcode",
+      "target": 19,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 1, 45],
+        "textureFile": "texture_blue.jpg"
+      }
+    },
+    {
+      "id": 20,
+      "type": "barcode",
+      "target": 20,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 2, 45],
+        "textureFile": "texture_green.jpg"
+      }
+    },
+    {
+      "id": 21,
+      "type": "barcode",
+      "target": 21,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 1, 45],
+        "textureFile": "texture_blue.jpg"
+      }
+    },
+    {
+      "id": 22,
+      "type": "barcode",
+      "target": 22,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 2, 45],
+        "textureFile": "texture_green.jpg"
+      }
+    },
+    {
+      "id": 23,
+      "type": "barcode",
+      "target": 23,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 1, 45],
+        "textureFile": "texture_blue.jpg"
+      }
+    },
+    {
+      "id": 24,
+      "type": "barcode",
+      "target": 24,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 2, 45],
+        "textureFile": "texture_green.jpg"
+      }
+    },
+    {
+      "id": 25,
+      "type": "barcode",
+      "target": 25,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 1, 45],
+        "textureFile": "texture_blue.jpg"
+      }
+    },
+    {
+      "id": 26,
+      "type": "barcode",
+      "target": 26,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 2, 45],
+        "textureFile": "texture_green.jpg"
+      }
+    },
+    {
+      "id": 27,
+      "type": "barcode",
+      "target": 27,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 1, 45],
+        "textureFile": "texture_blue.jpg"
+      }
+    },
+    {
+      "id": 28,
+      "type": "barcode",
+      "target": 28,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 2, 45],
+        "textureFile": "texture_green.jpg"
+      }
+    },
+    {
+      "id": 29,
+      "type": "barcode",
+      "target": 29,
+      "matrixSize": 35,
+      "contentType": "primitive",
+      "primitive": {
+        "type": "BoxGeometry",
+        "size": [45, 1, 45],
+        "textureFile": "texture_green.jpg"
+      }
     }
   ]
 }
