@@ -1863,10 +1863,11 @@
             }
 
             function checkController() {
-                // Виконуємо перевірку тільки якщо контролер існує в сцені
+                // ✅ КРИТИЧНО: Перевіряємо, чи існує controller і markerRoots[0]
                 if (!controller || !controller.parent) {
                     // Контролер ще не активний - скидаємо всі колізії
                     if (currentIntersectedMarker !== null) {
+                        console.log(`[CONTROLLER DEBUG] Controller not ready, resetting intersection. Last intersected: ${currentIntersectedMarker}`);
                         currentIntersectedMarker = null;
                         // Reset all markers to first content
                         for (let i = 0; i < markerRoots.length; i++) {
@@ -1884,21 +1885,19 @@
                     }
                     return;
                 }
+
+                // ✅ КРИТИЧНО: Перевіряємо видимість markerRoots[0] (маркер-контролер)
+                // Це маркер з barcode target=8, який відповідає за контролер
+                // Якщо маркер-контролер не детектується камерою - ігноруємо всі колізії
+                let controllerMarkerVisible = markerRoots && markerRoots[0] ? markerRoots[0].visible : false;
                 
-                // Перевіряємо видимість контролера та всіх його батьківських контейнерів
-                let isVisible = controller.visible;
-                let parent = controller.parent;
-                while (parent) {
-                    if (!parent.visible) {
-                        isVisible = false;
-                        break;
-                    }
-                    parent = parent.parent;
-                }
-                
-                if (!isVisible) {
-                    // Контролер або його батьківський контейнер невидимий - скидаємо всі колізії
+                // ✅ ДІАГНОСТИКА: вивід стану контролера
+                console.log(`[CONTROLLER] controllerMarkerVisible=${controllerMarkerVisible}, controller.visible=${controller.visible}, parent.visible=${controller.parent.visible}`);
+
+                // ✅ ЯКЩО МАРКЕР-КОНТРОЛЕР НЕ ВИДИМИЙ - СКИДАЄМО ВСІ КОЛІЗІЇ
+                if (!controllerMarkerVisible) {
                     if (currentIntersectedMarker !== null) {
+                        console.log(`[CONTROLLER] Marker-8 NOT VISIBLE - Resetting all collisions`);
                         currentIntersectedMarker = null;
                         // Reset all markers to first content
                         for (let i = 0; i < markerRoots.length; i++) {
@@ -2026,7 +2025,7 @@
                 // залишається після перемикання на основний контент
                 object1.geometry.boundingBox = null;
                 object2.geometry.boundingBox = null;
-                
+
                 // Перераховуємо bounding box з нуля
                 object1.geometry.computeBoundingBox();
                 object2.geometry.computeBoundingBox();
@@ -2052,9 +2051,8 @@
                 tipBoxLocal.applyMatrix4(object2.matrixWorld);
 
                 // --- ЗМЕНШУЄМО bounding box контролера для точнішої колізії ---
-                // shrinkFactor = 0.85 зменшує box на 15% для усунення хибних колізій
-                // Якщо колізія все одно затримується, зменшіть до 0.75 або 0.50
-                const shrinkFactor = 0.45;
+                // shrinkFactor = 0.25 зменшує box на 75% для усунення хибних колізій
+                const shrinkFactor = 0.25;
                 const center = new THREE.Vector3().addVectors(tipBoxLocal.min, tipBoxLocal.max).multiplyScalar(0.5);
                 const halfSize = new THREE.Vector3().subVectors(tipBoxLocal.max, center);
                 halfSize.multiplyScalar(shrinkFactor);
@@ -2065,39 +2063,39 @@
                 // --- Debug: виводимо розміри bounding box ---
                 const box1Size = new THREE.Vector3().subVectors(box1World.max, box1World.min);
                 const tipBoxSize = new THREE.Vector3().subVectors(tipBoxLocal.max, tipBoxLocal.min);
-                
-                // Обчислюємо відстань між центрами box
+
+                // Обчислюємо відстань між центрами box (для логування)
                 const box1Center = new THREE.Vector3().addVectors(box1World.min, box1World.max).multiplyScalar(0.5);
                 const tipBoxCenter = new THREE.Vector3().addVectors(tipBoxLocal.min, tipBoxLocal.max).multiplyScalar(0.5);
                 const distance = box1Center.distanceTo(tipBoxCenter);
-                
+
                 // Визначаємо напрямок відносно об'єкта (спереду/збоку)
                 const direction = new THREE.Vector3().subVectors(tipBoxCenter, box1Center).normalize();
                 const objectForward = new THREE.Vector3(0, 0, 1); // Припускаємо, що об'єкт орієнтований вперед по Z
                 const angle = direction.angleTo(objectForward) * (180 / Math.PI);
                 const isFront = angle < 45 ? 'СПЕРЕДУ' : (angle > 135 ? 'ЗЗАДУ' : 'ЗБОКУ');
-                
+
                 console.log(`[${isFront}] Collision: Object1=${box1Size.x.toFixed(1)}x${box1Size.y.toFixed(1)}x${box1Size.z.toFixed(1)}, Tip=${tipBoxSize.x.toFixed(1)}x${tipBoxSize.y.toFixed(1)}x${tipBoxSize.z.toFixed(1)}, Distance=${distance.toFixed(2)}mm, Angle=${angle.toFixed(0)}°`);
                 // ---------------------------------------------
 
                 // --- Check collision based on mode ---
                 let isColliding = false;
-                
+
                 if (controllerCollisionMode === '2d') {
                     // 2D mode: Project boxes to XY plane (ignore Z-axis)
                     const box1XY = new THREE.Box2();
                     const box2XY = new THREE.Box2();
-                    
+
                     box1XY.setFromPoints([
                         new THREE.Vector2(box1World.min.x, box1World.min.y),
                         new THREE.Vector2(box1World.max.x, box1World.max.y)
                     ]);
-                    
+
                     box2XY.setFromPoints([
                         new THREE.Vector2(tipBoxLocal.min.x, tipBoxLocal.min.y),
                         new THREE.Vector2(tipBoxLocal.max.x, tipBoxLocal.max.y)
                     ]);
-                    
+
                     isColliding = box1XY.intersectsBox(box2XY);
                 } else {
                     // 3D mode: Full 3D bounding box intersection
@@ -2282,6 +2280,7 @@
                     }
 
                     if (contentInitialized) {
+                        // === ОБРОБКА BARCODE МАРКЕРІВ ===
                         if (barcodesID.length) {
                             barcodesID.forEach((elem, index) => {
                                 let soundData = barcodesSound.get(elem);
@@ -2289,13 +2288,21 @@
 
                                 let markerIndex = barcodeToMarkerIndex.get(elem);
                                 if (markerIndex === undefined) return;
-
-                                let sound = soundData.sound || soundData; // Support both old format (direct) and new format (object)
-                                let playOnControllerIntersect = soundData.playOnControllerIntersect || false;
+                                
+                                let markerRoot = markerRoots[markerIndex];
 
                                 // Get barcode detection status
                                 let barcodeMarker = arToolkitContext.arController.barcodeMarkers[elem];
                                 let markerDetected = barcodeMarker && barcodeMarker.inCurrent === true;
+                                
+                                // ✅ Встановлюємо видимість markerRoot для barcode-маркерів
+                                if (markerRoot) {
+                                    markerRoot.visible = markerDetected;
+                                }
+
+                                let sound = soundData.sound || soundData; // Support both old format (direct) and new format (object)
+                                let playOnControllerIntersect = soundData.playOnControllerIntersect || false;
+
                                 let controllerIntersects = currentIntersectedMarker === markerIndex;
 
                                 // Determine if should play based on flag
@@ -2335,7 +2342,7 @@
                                 } else {
                                     // Reset audio state when not intersecting
                                     markerAudioPlayed.delete(markerIndex);
-                                    
+
                                     // --- СКАСУВАННЯ ТАЙМЕРА АУДІО: якщо контролер віддалився ---
                                     // Якщо контролер віддалився до завершення 0.5 сек, скасовуємо аудіо
                                     if (markerAudioTimeouts.has(markerIndex)) {
@@ -2351,7 +2358,7 @@
                                             sound.stop();
                                         }
                                     }
-                                    
+
                                     // Reset alternative content when marker is not detected
                                     if (!markerDetected && markerContentState.get(markerIndex)) {
                                         switchMarkerContent(markerIndex, false);
